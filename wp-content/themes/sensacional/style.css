@@ -1,0 +1,838 @@
+/*
+ Theme Name:   Sensacional
+ Description:  Sensacional.cl
+ Author:       Sensacional SpA
+ Author URI:   sensacional.cl
+ Template:     basel
+ Version:      1.0.0
+ Text Domain:  sensacional
+*/
+
+
+/* Your customizations starts here */
+
+
+/* Removed top bar border */
+.topbar-wrapp {
+	border-bottom:0 !important;
+}
+
+/* Removed menu top and bottom borders */
+.navigation-wrap {
+	border:0 !important;
+}
+
+/* Removed in stock button */
+.single-product-content .in-stock {
+	display:none !important;
+}
+
+/* Added product_design = alt product share style
+   For mobile devices, social buttons are centered
+ */
+.single-product-content .product-share {
+	margin:30px 0 50px;
+}
+
+@media (max-width: 768px) {
+	.single-product-content .product-share {
+		text-align: center;
+	}
+}
+
+.product-share h5 {
+	margin-bottom: 10px;
+}
+
+/*Removed scroll for product_design = alt */
+.product-image-summary .summary .basel-scroll-content {
+	overflow:visible !important;
+}
+
+.product-image-summary .summary  .basel-scroll {
+    position: relative !important;
+    overflow: visible !important;
+}
+
+.product-image-summary .summary  .basel-scroll .basel-scroll-content {
+    position: relative !important;
+    overflow: visible !important;
+}
+
+.product-image-summary .basel-scroll>.basel-scroll-pane {
+	display:none !important;
+}
+
+/* Added margin to Add to Cart button */
+.single-product-content .cart {
+	margin:30px 0;
+}
+
+/* Removed tabs top border */
+.tabs-layout-accordion {
+	border:0;
+}
+
+/* Change tabs bottom border */
+.tabs-layout-accordion .basel-tab-wrapper {
+	border-bottom:1px solid #ddd;
+}
+
+
+/* Add Sensacional Product custom information styling */
+.sensacional-informacion {
+	
+}
+
+.sensacional-informacion .condicion .iconos img.icon {
+	margin-right: 6px !important;
+	width:30px;
+	height:30px;
+}
+
+.sensacional-informacion .condicion .texto {
+	margin-top:10px;
+}
+
+/* Adds styles for icons */
+
+.sensacional-atributos {
+	margin:30px 0 30px;
+}
+
+.sensacional-atributos .atributo {
+	margin:0 0 10px;
+}
+
+.sensacional-atributos .atributo .texto {
+	display:inline-block;
+	font-weight: 700;
+	width:150px;
+	padding-top: 2px;
+}
+
+.sensacional-atributos .atributo .iconos {
+	display:inline-block;
+	margin-left:5px;
+}
+
+.sensacional-atributos .iconos img.icon {
+	margin-right:3px !important;
+	height:15px;
+	width:15px;
+}
+
+
+/* Change Add to Cart button */
+
+.single-product-content .cart .button .text {
+	font-family: 'Montserrat', sans-serif !important;
+	text-transform: none;
+}
+
+.single-product-content .cart .button .text .addto {
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 700;
+	display: block;
+	clear:both;
+}
+
+.single-product-content .cart .button .text .saving {
+	font-size: 16px;
+	font-weight: 700;
+	color:#f8b8a9;
+	display: block;
+	margin-top: 6px;
+}
+
+/*Remove Add to Cart button from product grid */
+.product-grid-item .btn-add {
+	display:none !important;
+}
+
+.single-product-content .cart .button:hover .text .saving {
+	color:#f8a797;
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+
+/* Changes price format on Single Product View */
+
+.single-product-page .price {
+	font-family: 'Montserrat', sans-serif !important;	
+}
+
+.single-product-page .price .amount {
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.single-product-page .new-price {
+	display: inline-block;
+}
+
+.single-product-page .new-price {
+	margin-left: 10px;
+}
+
+.single-product-page .new-price .amount {
+	color:#ccc !important;
+	text-decoration: line-through;
+}
+
+.single-product-page .new-price .text {
+	color:#ccc;
+	font-size: 14px;
+	padding-bottom:8px;
+}
+
+
+/* Gives format to Condition icons in grid view */
+
+.grid-informacion {
+	margin:0 0 10px;
+}
+
+.grid-informacion .condicion .iconos img.icon {
+	margin-right: 2px !important;
+	width:22px;
+	height:22px;
+}
+
+/* Gives format to Price in grid view */
+.grid-precio {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.grid-precio .precio-nuevo, .grid-precio .precio-actual, .grid-precio .porcentaje {
+	display:inline-block;
+}
+
+.grid-precio .precio-nuevo, .grid-precio .precio-actual {
+	margin-right:3px;
+}
+
+.grid-precio .precio-nuevo .amount {
+	color:#bbb !important;
+	text-decoration: line-through;
+}
+
+.grid-precio .precio-actual .amount {
+	color:#303535 !important;
+	font-weight: 700;
+}
+
+/* Add % Ahorro in Grid Loop */
+
+.grid-ahorro {
+	margin:10px 0 0;
+}
+
+.grid-ahorro .text {
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+	color:#f4524d;
+}
+
+/* Hides elements when not in mobile */
+
+@media only screen and (min-width: 991px) {
+	.title-shop .nav-shop {
+		display: none;
+	}
+}
+
+/* Hides elements in mobile */
+
+@media only screen and (max-width: 480px) {
+	.woocommerce-breadcrumb {
+		display: none !important;
+	}
+}
+
+/* Remove bottom margin from cart table */
+.woocommerce .cart-actions {
+	margin-bottom:30px !important;
+}
+
+/* Make shopping cart buttons color white */
+.widget_shopping_cart .buttons a {
+	color:#fff !important;
+}
+
+.widget_shopping_cart .buttons a.view-cart {
+	background:#ecf0f1 !important;
+	color:#303535 !important;
+	border:none;
+}
+
+/* Change remove product color */
+.shop_table td.product-remove a {
+	background-color:#bdc3c7 !important;
+}
+
+/* Change apply coupon color*/
+.coupon .button.apply-coupon {
+	background: #7f8c8d !important;
+	border:0;
+}
+
+/* Change success alert messages */
+.woocommerce-notice.woocommerce-notice--success, .woocommerce-message {
+	background:#2ecc71 !important;
+	border:0 !important;
+	color:#fff !important;
+}
+
+/* Change warning alert messages */
+.woocommerce-info {
+	background:#f39c12 !important;
+	border:0 !important;
+	color:#fff !important;
+	padding:20px !important;
+}
+
+.woocommerce-checkout .woocommerce-info {
+	background: none !important;
+	color:#303535 !important;
+	padding:0 !important;
+}
+
+/* Change Checkout coupon link color */
+
+.woocommerce-checkout .woocommerce-info .showcoupon {
+	color:#f4524d;
+	border-bottom: #f4524d 1px solid !important;
+}
+
+
+/* Change search results box */
+.search-no-results .woocommerce-info {
+	margin-bottom:40px !important;
+	color:#303535 !important;
+	background: none !important;
+}
+
+.search-no-results.woocommerce .woocommerce-info:before {
+	color:#f4524d !important;
+	opacity:1 !important;
+	font-size:40px !important;
+	background: none;
+}
+
+/* Change warning alert messages */
+.woocommerce-error {
+	background:#f4524d !important;
+	border:0 !important;
+	color:#fff !important;
+}
+
+
+/* Change button after thankyou page */
+.gobacktostore {
+	margin:50px 0;
+	text-align: center;	 
+}
+
+/* Remove page title border */
+.page-title {
+	border-bottom: 0 !important;
+}
+
+/* Remove titles from Thank you page */
+.woocommerce-order-received h1.entry-title {
+	display:none !important;
+}
+.woocommerce-order-received .breadcrumbs {
+	display:none !important;
+}
+
+/* Remove breadcrumbs from Cart */
+.woocommerce-cart .breadcrumbs {
+	display:none !important;
+}
+
+/* Remove menu on checkout */
+body.woocommerce-checkout .sticky-header, body.woocommerce-checkout .topbar-wrapp .topbar-content, body.woocommerce-checkout .navigation-wrap, body.woocommerce-checkout .widgetarea-head, body.woocommerce-checkout .wrapp-header .right-column {
+	display:none !important;
+}
+
+/* Font weight for current menu items */
+ .main-nav .menu > li.current-menu-item > a {
+	font-weight: 600 !important;
+	color:#303535 !important;
+}
+
+/* Changes "view all" color for full menu */
+a.menu-all {
+	color:#303535 !important;
+}
+
+a.menu-all:hover {
+	color:#f4524d !important;
+}
+
+/* Removes scroll to top button  */
+
+.scrollToTop.button-show {
+	display:none !important;
+}
+
+/* Wides "solicitar retiro" form submit button */
+#solicitar-retiro-submit {
+	width:100%;
+}
+
+/* Changes button default color */
+.added_to_cart {
+	color:#fff !important;
+}
+
+/* Adds form spacing */
+.wpcf7 label {
+	margin-bottom:14px;
+}
+
+/* Vender section */
+.dato-check-container {
+	padding:0 0 10px;
+}
+.mini-icons {
+    display: inline-block;
+    width: 25px;
+    height: 100%;
+    float: left;
+}
+.dato-check-content {
+	margin-left:30px;
+}
+ 
+/* For vender Video */
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* My Account menu colors */
+.woocommerce-MyAccount-navigation ul li a:focus, .woocommerce-MyAccount-navigation ul li a:hover {
+	background: #fbfcfc !important;
+}
+
+.woocommerce-MyAccount-navigation ul li.is-active>a {
+	background:#ecf0f1 !important;
+}
+
+/* My account info */
+.woocommerce-MyAccount-content>p:not(.woocommerce-info) {
+	background: #fbfcfc;
+}
+
+/* Remove waves from cart & checkout block */
+.cart-collaterals .cart_totals {
+	background-image: none;
+	background-color:#f6f8f8;
+}
+
+.woocommerce-checkout .checkout-order-review {
+	background-image: none;
+	background-color:#ecf0f1;
+}
+
+/* Change cart block color */
+.woocommerce .shop_table.cart.shop_table_responsive tbody td {
+	background:#fff !important;
+}
+
+/* Change tables border color */
+table tr td {
+	border-bottom:1px solid #ecf0f1;
+}
+
+table tr th {
+	border-bottom:1px solid #ecf0f1;
+}
+
+
+/*Vender - Unete al movimiento counter color*/
+.counter {
+	color:#fff !important;
+}
+
+/* Footer */
+
+footer.footer-container {
+	margin-top:100px;
+}
+
+footer.footer-container ul, footer.footer-container ul li, footer.footer-container {
+	line-height:1.5 !important;
+}
+
+footer.color-scheme-dark h3 {
+	color:#f4524d !important;
+}
+
+/* Removes footer before custom HTML margin */
+footer .footer-column-1 {
+	margin-bottom: 0 !important;
+}
+
+/* Removes '>' from footer menu items */
+footer .wpb_text_column ul:not(.social-icons)>li:before {
+	content:'';
+}
+
+/* Removes left padding of footer menu */
+footer ul.menu {
+	padding-left:0;
+}
+
+.footer-container ul li {
+	margin-bottom:10px;
+}
+
+footer .social-icons {
+	margin-top:20px !important;
+}
+
+/* Removes border on top of copyright */
+.main-footer+.copyrights-wrapper .min-footer {
+	border:0;
+}
+
+/* Remove Copyright */
+.copyrights-wrapper {
+	display:none !important;
+}
+
+/* Footer sitemap and terms */
+
+footer .terms {
+	text-align: right;
+}
+
+footer .terms a {
+	font-size: 11px !important;
+}
+
+footer .terms a:last-child {
+	margin-left:20px;
+}
+
+/* Change social colors for footer */
+footer ul.social-icons li a {
+	color:#303535 !important;
+}
+
+
+/* Change button color for My account Login */
+.basel-registration-page input.button {
+	background: #f4524d;
+	color:#fff;
+	border:0;
+}
+
+/* Change icon for "Lost your password" on My Account */
+.login .lost_password>a:before {
+	content: "\f059";
+	font-family: FontAwesome;
+}
+
+/* Change text design for lost password */
+.lost_reset_password p:first-child {
+	border:0;
+}
+
+/* Change recover password button color */
+.lost_reset_password input.button {
+	background: #f4524d;
+	color:#fff;
+	border:0;
+}
+
+/* Change filters background */
+.filters-area {
+	background: #f6f8f8 !important;
+}
+
+/* Change filters color text */
+.shop-loop-head .basel-filter-buttons .open-filters {
+	color:#303535;
+}
+
+.color-scheme-dark .widget-title, .color-scheme-dark .widgettitle, .color-scheme-dark h1, .color-scheme-dark h2, .color-scheme-dark h3, .color-scheme-dark h4, .color-scheme-dark h5, .color-scheme-dark h6, .color-scheme-dark label {
+	color:#303535 !important;
+}
+
+.cart-widget-side .widget-heading {
+	background: #fff !important;
+}
+
+.cart-widget-side .widget-heading .widget-title {
+	color:#303535;
+}
+
+.cart-widget-side .widget-heading .widget-close {
+	display:none;
+}
+
+/* Change size of mini cart image size */
+.product_list_widget li img {
+	max-width:40px;
+}
+
+/* Change mini cart qty color and font */
+.widget_shopping_cart .product_list_widget li .quantity {
+	color:#bdc3c7;
+}
+
+.widget_shopping_cart .product_list_widget li .quantity .amount {
+	font-family: "Open Sans", sans-serif;
+}
+
+.product_list_widget li {
+	border-bottom: 1px solid #ecf0f1;
+}
+
+/* Change mini cart subtotal */
+
+.widget_shopping_cart .total {
+	border:0;
+	margin-top:20px;
+	font-family: "Montserrat", sans-serif;
+	font-size: 20px;
+	color:#303535;
+	margin-bottom:20px;
+}
+
+/* Change mobile menu */
+
+.mobile-nav {
+	background:#fff;
+	color:#303535;
+}
+
+.mobile-nav ul li a {
+	color:#303535;
+	border:0;
+	text-transform: none;
+	padding-top:6px;
+	padding-bottom:6px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.mobile-nav ul li.current_page_item > a {
+	font-weight: 600;
+}
+
+.mobile-nav ul li.current_page_item > a:hover {
+	color:#fff;
+}
+
+.mobile-nav .searchform {
+	border-bottom: 0;
+	margin-top:15px;
+}
+
+.mobile-nav .searchform input[type=text] {
+	background:#ecf0f1;
+	color:#303535;
+}
+
+.mobile-nav .searchform button {
+	color:#303535 !important;
+}
+
+.main-header form.has-categories-dropdown #searchsubmit {
+	color:#303535 !important;
+}
+
+.mobile-nav .searchform input::-webkit-input-placeholder {
+    color: rgba(48,51,51,0.8) !important;
+}
+.mobile-nav .searchform input::-moz-placeholder {
+    color: rgba(48,51,51,0.8) !important;
+}
+.mobile-nav .searchform input:-moz-placeholder {
+    color: rgba(48,51,51,0.8) !important;
+}
+.mobile-nav .searchform input:-ms-input-placeholder {
+    color: rgba(48,51,51,0.8) !important;
+}
+
+/* Remove wishlist from menu */
+@media (max-width: 991px) {
+.right-column .wishlist-info-widget {
+	display:none;
+	}
+}
+
+/* Show search button on mobile */
+@media (max-width: 991px) {
+.right-column .search-button {
+	display:inline-block;
+	}
+}
+
+/* Hide search from desktop */
+@media (min-width: 991px) {
+.right-column .search-button {
+	display:none;
+	}
+}
+
+/* Change padding for certain elements in mobile menu */
+
+.mobile-nav li#menu-item-1393 a, .mobile-nav li#menu-item-1582 a {
+	margin-top:30px;
+}
+
+.menu-mobile-navigation-container {
+	margin-top:20px;
+}
+
+.header-links {
+	margin-top:20px;
+}
+
+/* Change mobile menu design on hover elements */
+
+.mobile-nav ul li a:active, .mobile-nav ul li a:hover {
+	background:#f4524d;
+	color:#fff;
+}
+
+
+/* Change mobile menu background */
+
+.basel-close-side {
+	background: rgba(48,53,53,.8);
+}
+
+/* Change price font in cart (mini + big) */
+.widget_shopping_cart .total .amount {
+	font-family: 'Montserrat', sans-serif !important;
+}
+
+.widget_shopping_cart .total strong, .cart-collaterals .cart_totals .amount, .woocommerce-checkout-review-order .order-total {
+	font-family: 'Montserrat', sans-serif !important;
+	color:#303535 !important;
+}
+
+/* Change cart elements width on mobile */
+
+@media (max-width: 768px) {
+.woocommerce table.shop_table_responsive tbody td {
+	padding-top:5px;
+	padding-bottom:5px;
+}
+}
+
+tr.woocommerce-cart-form__cart-item {
+	margin-bottom:10px !important;
+}
+
+/* Change cart image sizes */
+@media (max-width: 768px) {
+	.woocommerce table.shop_table_responsive .product-thumbnail img {
+		max-width:50px;
+	}
+}
+
+.shop_table td.product-thumbnail img {
+	max-width:50px;
+}
+
+/* Change cart font */
+.cart_totals {
+	font-family: "Montserrat", sans-serif;
+	text-transform: none;	
+}
+
+@media (max-width: 768px) {
+.woocommerce table.shop_table_responsive tbody td:before {
+	text-transform: none;
+	}
+}
+
+/* Change full menu text transform */
+.basel-navigation .menu>li.menu-item-design-full-width .sub-menu>li>a, .basel-navigation .menu>li.menu-item-design-sized .sub-menu>li>a {
+	text-transform: none;
+}
+
+/* Change search extended color */
+.search-extended #searchform #s {
+	border:0;
+	background: #ecf0f1;
+}
+
+
+
+/* Move menu "Vender" item */
+li#menu-item-1583 {
+	margin-left:40px;
+}
+
+@media (min-width: 991px) {
+	.main-header {
+		padding-top:20px;
+	}
+}
+
+/* Change page heading */
+
+.title-size-small h1.entry-title {
+	font-size:20px;
+}
+
+/* Padding top container */
+.page-title {
+	padding-top:30px;
+}
+
+/* Centering search bar on desktop */
+.header-base .widget_product_search {
+        max-width: 800px;
+        margin: 0 auto;
+}
+
+/* Remove quantity */
+.quantity {
+	display:none;
+}
+
+/* Change widget title remove line */
+.widget-title:before, .widgettitle:before {
+	background: none;
+}
+
+/* Change widget title font */
+.widgettitle, .widget-title {
+	font-weight: 600 !important;
+	color:#303535;
+	margin-bottom:10px;
+}
+
+/* Change button color */
+.button, button {
+	color:#fff !important;
+}
+
+/* Change color in forms button */
+input[type=submit].wpcf7-submit {
+	color:#fff !important;
+}

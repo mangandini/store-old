@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+	<title>Table Rate Shipping for WooCommerce</title>
+ 	<meta name="description" content="A starting point illustration of configuring your WooCommerce shipping model with the admin defined table of rates">
+	<meta name="author" content="Bolder Elements">
+	<meta name="copyright" content="Bolder Elements">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2017-04-12T00:00:00+02:00">
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/css/documenter_style.css" rel="stylesheet">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    
+	
+	<style>
+		html, body{background-color:#FFFFFF;color:#4D4D4D;}
+		h1,h2,h3,h4,h5,h6{color:#4D4D4D;}
+		section table{background-color:#FFFFFF;}
+		::-moz-selection{background:#9DBC5A;color:#FFFFFF;}
+		::selection{background:#9DBC5A;color:#FFFFFF;}
+		a.brand{background-image:url(assets/images/image_2.png);}
+		a, a:hover, a:active{color:#8FA760;}
+		hr{border-top:1px solid #A3A3A3;border-bottom:1px solid #EDEDED;}
+		div.navbar-inner, .navbar .nav li ul{background:#F6F6F6;color:#4D4D4D;}
+		a.btn-navbar{background:#F6F6F6;color:#4D4D4D;}
+		.navbar .nav li a{color:#4D4D4D;text-shadow:1px 1px 0px #FFFFFF;}
+		.navbar .nav li a:hover, .navbar .nav li.active a{text-shadow:none;}
+		div.navbar-inner ul{}
+		.marketing-byline{color:#EDEDED;}
+		.navbar .nav > li a{color:#9DBC5A;}
+		.navbar .nav > li a:hover, a.btn-navbar:hover{background:#9DBC5A;color:#FFFFFF;}
+		.navbar .nav .active > a, .navbar .nav .active > a:hover, a.btn-navbar:active{background-color:#9DBC5A;color:#FFFFFF;}
+		.navbar .nav li ul li a:hover{background:#9DBC5A;color:#FFFFFF;}
+		.navbar .nav li ul li a:active{background:#9DBC5A;color:#FFFFFF;}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #9DBC5A, #849E4C);
+			  background-image: -ms-linear-gradient(top, #9DBC5A, #849E4C);
+			  background-image: -webkit-gradient(linear, 0 0, 0 9DBC5A%, from(#F6F6F6), to(#849E4C));
+			  background-image: -webkit-linear-gradient(top, #9DBC5A, #849E4C);
+			  background-image: -o-linear-gradient(top, #9DBC5A, #849E4C);
+			  background-image: linear-gradient(top, #9DBC5A, #849E4C);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9DBC5A', endColorstr='#849E4C', GradientType=0);
+			  border-color: #849E4C #849E4C #bfbfbf;
+			  color:#FCF8EB;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  background-color: #849E4C;
+		}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+	<link rel="stylesheet" href="assets/css/documentation.css" media="screen">
+
+	
+    </head>
+    
+<body class="documenter-project-table-rate-shipping-for-woocommerce" data-spy="scroll" id="top">
+
+<!-- Documentation Navbar -->
+
+<div class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container"> 
+			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> 
+			<a class="brand" href="#">Table Rate Shipping for WooCommerce</a>
+			<div class="nav-collapse">
+			<ul class="nav">
+					
+			<li><a href="#general" title="General">General</a>
+				<ul>
+					<li><a href="#general_requirements_for_this_plugin">Requirements for this Plugin</a>
+					<li><a href="#general_receiving_support">Receiving Support</a>
+					<li><a href="#general_registering_the_plugin">Registering the Plugin</a>
+					<li><a href="#general_installation">Installation</a>
+					<li><a href="#general_updating_the_plugin">Updating the Plugin</a>
+				</ul>
+			</li>
+			<li><a href="#settings_page" title="Settings Page">Settings Page</a>
+				<ul>
+					<li><a href="#settings_page_general_settings">General Settings</a>
+					<li><a href="#settings_page_user_permissions">User Permissions</a>
+					<li><a href="#settings_page_volumetric_settings">Volumetric Settings</a>
+					<li><a href="#settings_page_additional_options">Additional Options</a>
+					<li><a href="#settings_page_strongtable_of_rates_strong">Table of Rates</a>
+					<li><a href="#settings_page_shipping_class_priorities">Shipping Class Priorities</a>
+				</ul>
+			</li>
+			<li><a href="#wpml_translations" title="WPML Translations">WPML Translations</a></li>
+			<li><a href="#sources_and_credits" title="Sources and Credits">Sources and Credits</a></li>
+
+			</ul>
+			</div>
+		</div>
+	</div>
+</div> <!-- End of Navbar -->
+
+<!-- Main Container Beginning -->			
+			
+<div class="container" id="documenter_content">
+    
+	<div id="documenter-cover">
+	<div class="masthead">
+	    <h1>Table Rate Shipping for WooCommerce</h1>
+	    <p>A starting point illustration of configuring your WooCommerce shipping model with the admin defined table of rates</p>
+	    <ul class="marketing-byline">
+			<li>created: 04/12/2017</li>
+			<li>latest update: 04/12/2017</li>
+			<li>by: Bolder Elements</li>
+			<li><a href=""></a></li>
+		</ul>
+	    <p class="download-info">
+			<a href="http://bolderelements.net/support/" class="btn btn-primary btn-large">Support</a> 
+		</p>
+		
+	</div> <!-- masthead -->
+	
+   <div id="intro">
+    <p class="highlight hero-unit"></p>
+   </div> <!-- intro -->
+   
+	</div>
+      
+  <section id="general">
+	<div class="page-header"><h3>General</h3><hr class="notop"></div>
+<p>
+	Thank you for choosing Table Rate Shipping for WooCommerce to setup your shipping charges for your purchasing customers. The conditional statements and cost types in this shipping method allow you to create many scenarios tailored to fit your business&#39; shipping needs.&nbsp;</p>
+<p>
+	If you have any questions throughout the setup process, please search through the <a href="http://bolderelements.net/documentation/table-rate-shipping-for-woocommerce/" target="_blank">documentation</a> and read articles in the <a href="http://www.bolderelements.net/support/section/table-rate-shipping-for-woocommerce/" target="_blank">knowledgebase</a>. There is also an <a href="http://bolderelements.net/support/faq/table-rate-shipping-for-woocommerce/" target="_blank">FAQ</a> you can browse through to find common questions by other users.</p>
+<h4 id="general_requirements_for_this_plugin">Requirements for this Plugin</h4>
+<ul>
+	<li>
+		WordPress 4.4+</li>
+	<li>
+		WooCommerce 2.6+</li>
+	<li>
+		PHP 5.6+</li>
+	<li>
+		MySQL 5.6+</li>
+	<li>
+		Import/Export features will require the most recent version of your web browser</li>
+</ul>
+<h4 id="general_receiving_support">Receiving Support</h4>
+<p>
+	If you are not able to find the answer you are looking for, there is a&nbsp;<a href="http://bolderelements.net/support/tickets/new/" target="_blank">support ticket system</a>&nbsp;to receive one on one help. Support includes questions regarding usage and setup of this plugin, as well as any problems you may be experiencing. Support is not available for customizations nor compatibility issues with other third-party plugins unless otherwise stated.</p>
+<p>
+	Once you have purchased a license for this plugin, you will receive a <a href="#finding-purchase-code" target="_blank">purchase code</a> which you can use to <a href="http://bolderelements.net/support/wp-login.php?action=register" target="_blank">register for an account</a> on the support site. After logging in with your new account, click the&nbsp;<strong>Open a Ticket</strong> link under the&nbsp;<strong>Support Tickets</strong> menu item.</p>
+<p>
+	Most tickets are responded to within 24 business hours, but may take as long as 72 business hours depending on volume.</p>
+<h4 id="general_registering_the_plugin">Registering the Plugin</h4>
+<p>
+	Automatic updates are an easy way to keep this plugin running efficiently. Updates do more than offer new features. They may also fix issues found in prior versions, or issues that may arise with a future WordPress or WooCommerce update. It is important to keep this and all plugins up to date.</p>
+<p>
+	It is recommended that all users install the Envato Market plugin. This plugin gives the ability for WordPress to alert you to updates available for this plugin as well as others you have purchased through ThemeForest or CodeCanyon. It also provides the one click updates that you are used to with WordPress.org plugins. When you first activate this plugin, you will see a notification at the top of your dashboard prompting you to install Envato Market. You may click to enable, or dismiss the message to ignore.</p>
+<p>
+	<img alt="" src="assets/images/image_3.png" style="width: 934px; height: 163px;"></p>
+<p>
+	If you dismiss this notification and later change your mind, you can download the Envato Market plugin from GitHub.<br>
+	<a href="http://envato.github.io/wp-envato-market/" target="_blank">http://envato.github.io/wp-envato-market/</a></p>
+<h4 id="general_installation">Installation</h4>
+<p>
+	There are two options for installing this plugin the first time: via FTP and through the WordPress dashboard of your website. No matter which option you choose, you will need to first download the plugin files from your <a href="http://codecanyon.net/downloads" target="_blank">CodeCanyon downloads</a> page.&nbsp;</p>
+<p>
+	Clicking the&nbsp;<strong>Download</strong> button next to this plugin will display additional options for you to select.</p>
+<ul>
+	<li>
+		<strong>All files &amp; documentation -</strong> Includes a zip file containing the plugin files as well as the documentation</li>
+	<li>
+		<strong>WordPress install only -</strong> A zip file containing only the plugin files. Can be directly uploaded through your dashboard</li>
+</ul>
+<h5>
+	Installing via WordPress Dashboard</h5>
+<ol>
+	<li>
+		Navigate to&nbsp;<em>Plugins &gt; Add New</em></li>
+	<li>
+		Click the&nbsp;<em>Upload Plugin</em> link at the top of the page</li>
+	<li>
+		Locate and select the zip file containing the plugin files and click&nbsp;<em>Install Now</em></li>
+	<li>
+		Return to the&nbsp;<em>Plugins</em> page and activate your new plugin</li>
+	<li>
+		After activation, a notification will appear at the top of the screen asking you to complete the installation. Click&nbsp;<em>Install Tables</em> to add the necessary database changes</li>
+</ol>
+<h5>
+	Installing via FTP</h5>
+<ol>
+	<li>
+		Unpackage the zip file containing only the plugin files</li>
+	<li>
+		Open a connection to your server through an FTP program</li>
+	<li>
+		Upload the&nbsp;<em>woocommerce-table-rate-shipping</em>&nbsp;folder to the&nbsp;<em>wp-content/plugins</em> directory</li>
+	<li>
+		Once complete, visit your dashboard and open the&nbsp;<em>Plugins</em>&nbsp;page to activate your new plugin</li>
+	<li>
+		After activation, a notification will appear at the top of the screen asking you to complete the installation. Click&nbsp;<em>Install Tables</em>&nbsp;to add the necessary database changes</li>
+</ol>
+<h4 id="general_updating_the_plugin">Updating the Plugin</h4>
+<p>
+	All future upgrades are included with the initial purchase cost. Just like installing the plugin, you will have multiple options when it comes to updates. As described before, automatic updates are available after installing the Envato Market plugin in your dashboard. It is by far the easiest and fastest way to complete future updates. You can also download the files from CodeCanyon once more and follow the installation instructions for uploading files.</p>
+<div class="alert alert-error" style="text-align:center;">
+	If updating the plugin manually, you should always delete the existing plugin files before performing an update. When updating from the dashboard, this is a requirement by WordPress. Deleting the files will <strong>NOT</strong> remove your saved settings as they are stored elsewhere.</div>
+</section>
+<section id="settings_page">
+	<div class="page-header"><h3>Settings Page</h3><hr class="notop"></div>
+<div class="alert alert-info">
+	<em>Dashboard: WooCommerce &gt; Settings &gt; Shipping &gt; Shipping Zones</em></div>
+<p>
+	Table Rate Shipping is compatible with the WooCommerce Shipping Zones introduced in WC 2.6. Before you can proceed to setup your shipping options, you will need to create the necessary shipping zones. From there you will be able to select the &#39;Table Rate&#39; option to add to your chosen zone. For more information on how to create a shipping zone and assign shipping methods, please refer to the WooCommerce documentation:<br>
+	<a href="https://docs.woocommerce.com/document/setting-up-shipping-zones/" target="_blank">https://docs.woocommerce.com/document/setting-up-shipping-zones/</a></p>
+<p>
+	<em>This method also allows for multiple instances, so you may create a Table Rate method in several different zones, or a few different Table Rates in a single zone.</em></p>
+<p>
+	The Table Rate settings page is comprised of 5 sections, each containing a set of options for configuring this method. Each section can be expanded or collapsed to hide what you do not need at the moment.</p>
+<p style="text-align: center">
+	<img alt="" src="assets/images/image_4.png" style="width: 1169px; height: 858px;"></p>
+<h4 id="settings_page_general_settings">General Settings</h4>
+<p>
+	A small but very important section, these settings will determine how the final price is calculated.</p>
+<p>
+	<strong>Method Title</strong>&nbsp;- This field is purely for your own reference. In your shipping settings this method will be listed by its &#39;Method Title&#39;, however it does not appear on the frontend of your shop. Customers will not see this text as they will be shown the title you specify in the table of rates.</p>
+<p>
+	<strong>Tax Status -&nbsp;</strong>This select box lets WooCommerce know whether or not you would like to tax this shipping method. When set to&nbsp;<em>Taxable</em>, the shop will tax the method according to your already defined tax settings. When&nbsp;<em>Disabled</em>, you will be able to leave &#39;Shipping&#39; enabled on the tax page, but WooCommerce will not tax any shipping costs coming from this method.</p>
+<p>
+	<strong>Base Table Rates -&nbsp;</strong>How the conditions and costs apply to the customer&#39;s cart is determined by this option.&nbsp;</p>
+<ul>
+	<li>
+		<em>Per Order</em> bases the conditions on the entire order as a whole. For example, if you require a certain product category for one of your shipping options, it will only care the one or more items in the cart belong to that category. If you charge $5 shipping multiplied by quantity, then it will multiply the cost by the total number of items in the cart.</li>
+	<li>
+		<em>Per Item</em> will cycle through the customer&#39;s cart line by line and find a shipping cost for each item separately. It will then combine the costs for each item in to one shipping option for the customer. For example, if one of your requirements is that price is greater than $10, the purchase price of the item would need to be more than $10.</li>
+	<li>
+		<em>Per Line Item</em> is very similar to the previous option &#39;Per Item&#39;, but it bases the conditions on the total amount purchased.&nbsp;For example, if one of your requirements is that price is greater than $10, then the customer would need to be purchasing at least $10 worth of the item.&nbsp;</li>
+	<li>
+		<em>Per Class</em> utilizes an optional shipping feature of WooCommerce. Shipping classes are like product categories, except they categorize the shipping properties of an item. If you opt to use shipping classes and the &#39;Per Class&#39; option here, the plugin will group the cart items based on shipping class. It will then calculate a cost for each group and combine them into one option for the customer.<br>
+		<a href="https://docs.woocommerce.com/document/product-shipping-classes/" target="_blank">You can learn more about WooCommerce shipping classes here.</a></li>
+</ul>
+<h4 id="settings_page_user_permissions">User Permissions</h4>
+<p>
+	<strong>Shipping options appear for -&nbsp;</strong>By default shipping options defined here will appear for everyone. If you would like to setup different rates for different user roles, this option will be able to help. After selecting the&nbsp;<em>Specific Roles</em> option, another option will appear:&nbsp;<strong>Ship to Roles</strong>. This will allow you to select one or more roles that can receive these shipping options.</p>
+<p>
+	<strong>Settings can be modified by -&nbsp;</strong>By default only admins and users with shop manager positions will be able to modify shipping. Sometime in the near future this will be expanded upon to include users, user roles, and more.</p>
+<div>
+	<h4 id="settings_page_volumetric_settings">Volumetric Settings</h4>
+	<p>
+		Also popularly known as &#39;Dimensional Shipping&#39;, volumetric shipping is a provider&#39;s way of calculating weight values based on dimensions. If your prefered shipping carrier uses this type of calculationto adjust weight based rules, these settings will help make it easier to follow their lead.</p>
+	<p>
+		<strong>Volumetric Number -&nbsp;</strong>Every provider using dimensional shipping will have a &quot;magic number&quot; they use to calculate the volumetric weight of an item. Entering that number here will enable this feature. When enabled, a volumetric weight will be calculated for each item in the cart. It is then compared to the physical weight of the product. The larger of the two numbers will become the product&#39;s true weight.</p>
+	<p>
+		<strong>Operand -&nbsp;</strong>There are two common equations for calculating volumetric weight. Each involves the volume of the item and volumetric number supplied above. One will divide the volume by the volumetric number, and the other will multiply it. This option will determine which the plugin uses.</p>
+	<h4 id="settings_page_additional_options">Additional Options</h4>
+	<p>
+		<strong>Include Tax -&nbsp;</strong>WooCommerce considers the subtotal to be the item price before any taxes or discounts are applied. Enabling this option will have the plugin compare prices including their tax value.</p>
+	<p>
+		<strong>Include Coupons - </strong>As described above,&nbsp;WooCommerce considers the subtotal to be the item price before any taxes or discounts are applied. Enabling this option will have the plugin compare prices including their discounted value after coupons. If calculating per item or per class, and a cart based coupon is applied such as a $10 discount, the price for each item will include a prorated amount of the discount given.</p>
+	<p>
+		<strong>Single Class Only -&nbsp;</strong>Only available when the&nbsp;<em>Condition</em>&nbsp;field is set to &#39;Per Class&#39;, this option allows you to only return the cost of one shipping class, instead of all of them combined. All items in the cart will still need to qualify for shipping in the same option, but only one price will be shown to the customer. There are two options: highest priority and highest cost. Setting up class priorities will be discussed later in the documentation.</p>
+	<p>
+		<strong>Round Weight -&nbsp;</strong>This option, when enabled, will round up the weight values to the next whole number.</p>
+	<p>
+		<strong>Hide This Method -&nbsp;</strong>If you choose to use the WooCommerce Free Shipping method to offer your customers the choice of free shipping, this option offers the ability to remove all rates calculated when the &#39;Free Shipping&#39; method has also returned a shipping rate.</p>
+	<h4 id="settings_page_strongtable_of_rates_strong"><strong>Table of Rates</strong></h4>
+	<p>
+		The table of rates has been condensed to three columns, with additional options in a box to the right. When you first setup this shipping method, it will ask you how many options you wish to give your customers. After selecting a number, a separate section will appear for each option with the headline &quot;Shipping Option #&quot; followed by the shipping option&#39;s ID number.</p>
+	<p>
+		Below you will find the&nbsp;<strong>Shipping Option Title</strong> field. This is the text that the customer will see next to their shipping cost during checkout. It is a required field in order for the rest of your settings to save.</p>
+	<p>
+		The table below the option title field is where your shipping costs will be configured. Each table can have a unlimited number of rows, but you only need one row for each different price point or criteria that must be met. The rows must also be placed in order by their priority. When calculating shipping, the plugin will start at the top of the list and provide the shipping cost of the last qualifying row. To add a new row to the table, click the &#39;Add Shipping Cost&#39; link to the left, beneath the table. If you wish to delete rows that you have already setup, mark the checkbox in the left most column of the rows you wish to remove. Click the &#39;Delete Selected Costs&#39; link also on the left beneath the table to remove them from the table. After any rows are added or removed, you will need to click the &#39;Save Changes&#39; button at the bottom of the page in order for these changes to stay.</p>
+	<p>
+		There are three columns in this table:</p>
+	<ul>
+		<li>
+			<strong>Conditions -</strong> These are the criteria the customer&#39;s order must meet to qualify for the cost. You may setup multiple conditions here based on price, quantity, dimensions, weight, shipping class, products, categories, and dates.</li>
+		<li>
+			<strong>Costs -</strong> All shippng prices associated with the given conditions are listed. You may setup multiple costs for advanced pricing if desired. You can list prices as a flat rate, percentage of the subtotal, multipled by any of the numerical criteria, or multipled by every &#39;x&#39; number of items, dimensions, weight or price.</li>
+		<li>
+			<strong>Description -</strong> This is optional text that can be seen beneath the shipping title. Every option can have no more than one title, but this allows you to add subtext that changes on a per row basis.</li>
+	</ul>
+	<p>
+		To the right you will find the&nbsp;<strong>Additional Settings</strong> column containing simple on/off sliders for added funtionality.</p>
+	<ul>
+		<li>
+			<strong>Default Selection -</strong> This option is useful when you are giving multiple options to your customers. Your customers will see a list of available options as they ordered on this settings page, with the first option being selected by default. If you would prefer a different option be selected by default, enabling this option will do just that.</li>
+		<li>
+			<strong>Hide Other Options -</strong> Also useful for methods with multiple options, enabling this will hide all other shipping options setup on this page when a shipping rate from this table is returned.&nbsp;</li>
+	</ul>
+	<h4 id="settings_page_shipping_class_priorities">Shipping Class Priorities</h4>
+	<p>
+		As discussed earlier, there is an option for Per Class setups that allows for only one class&#39; cost to be returned as the shipping cost for all items in the cart. So instead of combining the cost for each class into one option, only one from one class will be used. There are two ways to determine which cost that is. The&nbsp;<em>Highest Costing</em> option will of course return the highest cost of all the shipping classes. The other option is &#39;Highest Priority&#39;.</p>
+	<p>
+		Priorities can be set within the same table that your shipping classes were setup in. After activating this plugin, a new column was added to the end of the list labeled &#39;Priority&#39;. By default, all shipping classes will have a priority of 0. To change this, click on the &#39;Edit&#39; link that appears when you hover over a row in the table. This will change the number 0 into a text field where you can set the actual priority value. Click the &#39;Save Changes&#39; button to save the new number. Remember, the higher the number, the higher the priority.</p>
+	<p>
+		&nbsp;</p>
+</div>
+<p style="text-align: center">
+	<img alt="" src="assets/images/image_1.png" style="width: 988px; height: 452px;"></p>
+</section>
+<section id="wpml_translations">
+	<div class="page-header"><h3>WPML Translations</h3><hr class="notop"></div>
+<p>
+	<a href="http://wpml.org">WPML</a> is a popular plugin for translating the text within your website to various languages for your international customers. One of the benefits of the Table Rate shipping method is that you can define regions across the world and offer varying shipping costs for each. But that means customers speaking different languages, so you will want to ensure that your titles translate accordingly. Before we get started, if you do not have a copy of&nbsp;WPML, you can <a href="https://wpml.org/?aid=78424&amp;affiliate_key=NiFAoAxbGR1x">purchase one here</a>.</p>
+<h3>
+	Requirements</h3>
+<ul>
+	<li>
+		WPML Multilingual CMS 3.1.5+</li>
+	<li>
+		String Translation 2.0+</li>
+	<li>
+		WooCommerce Multilingual</li>
+</ul>
+<h3>
+	Getting Started</h3>
+<p>
+	Install and activate the necessary&nbsp;WPML plugins (WPML Multilingual CMS, WPML String Translation, WPML Translation Management). Once these have been installed, you will also need to install&nbsp;<a href="https://wordpress.org/plugins/woocommerce-multilingual/">WooCommerce Multilingual</a>&nbsp;to manage the translations for your ecommerce shop. Set up WPML from <strong>WPML-&gt;Languages</strong>. WPML has a simple three step process to guide you through installation, but if you need any further help, please see the WPML <a href="http://wpml.org/documentation/getting-started-guide/" target="_blank">Getting Started Guide</a> for a complete reference.</p>
+<h3>
+	Translating Your&nbsp;Shipping Titles</h3>
+<p>
+	After you submit the form to save your Table Rate settings, this plugin will scan through your table and find all unique Titles. During the process, it will register them with WPML so that they can be later translated. Because this information is not part of the post or page structure of WordPress, its translation settings can be found <strong>WPML-&gt;String Translation</strong>.</p>
+<p>
+	A complex site may contain many strings to translate. Using the display filter, at the top of the String Translation page, filter the <strong>Domain </strong>to display &nbsp;&lsquo;be-table-ship&rsquo;. Each unique shipping title in the table will have a <strong>Name </strong>in the following format: shipping-title-your-shipping-title-here</p>
+<p style="text-align: center;">
+	<img alt="doc-wpml-string-translations" class="lightbox alignnone wp-image-8997 size-large" src="assets/images/image_5.png"  ></p>
+<p style="text-align: left;">
+	Click on the translations link to open the translation editor. Be sure to click on &lsquo;translation is complete&lsquo; after you translate. Incomplete translations will not appear in the site.</p>
+<h3 style="text-align: left;">
+	Not finding the translation you need?</h3>
+<p>
+	Sometimes the strings you need to translate may not have properly registered themselves, but fear not for there is another way! Visit your string translation settings at&nbsp;<strong>WPML-&gt;String Translation</strong>&nbsp;and scroll down to the bottom of the page. Click on the link&nbsp;<strong>Translate strings in admin screens</strong>, and search for the missing string using one or more words that can be found in the text. Once found, mark the checkbox next to the desired string or strings, and submit the form by click&nbsp;<strong>Apply</strong> at the bottom of the form. Now when you return to your String Translation settings page, the missing string should now be visible and&nbsp;ready for translation.</p>
+<h3 style="text-align: left;">
+	Deleting the Translation</h3>
+<p>
+	Perhaps you not longer use a certain shipping title&nbsp;and wish to remove the strings associated with it. Simply select the strings you want to remove and click &ldquo;Delete&rdquo;. <strong><a href="https://wpml.org/documentation/getting-started-guide/string-translation/" target="_blank">Learn more about String Translation</a></strong></p>
+</section>
+<section id="sources_and_credits">
+	<div class="page-header"><h3>Sources and Credits</h3><hr class="notop"></div>
+<p>
+	I&#39;ve used the following resoures to create this plugin.</p>
+<ul>
+	<li>
+		<a href="http://wcdocs.woothemes.com/apidocs/index.html">WooCommerce Source Code</a></li>
+	<li>
+		<a href="http://woothemes.com/woocommerce/">WooCommerce</a> plugin and dummy data</li>
+</ul>
+<p>
+	Once again, thank you for purchasing this plugin. I hope that this shipping method will help to manage your shipping costs a little easier. Please remember that this documentation is simply a starting point, a brief overview of how to use this plugin. If you have any questions during setup or use of this plugin, please visit the <a href="http://bolderelements.net/support/">support site</a> to review helpful articles or open a support ticket.</p>
+<p>
+	Are you enjoying this plugin? Don&#39;t forget to <a href="http://codecanyon.net/downloads#item-3796656">leave it a five star rating</a>!</p>
+</section>
+
+
+
+    <hr />
+
+<footer>
+    <p>Copyright Bolder Elements 2017 made with the <a href="http://rxa.li/documenter">Documenter v2.0</a></p>
+</footer>
+
+</div><!-- /container --> 
+
+<!-- Le javascript
+    ================================================== --> 
+<!-- Placed at the end of the document so the pages load faster --> 
+<script>document.createElement('section');var duration='500',easing='easeInQuint';</script>
+<script src="assets/js/jquery.js"></script> 
+<script src="assets/js/jquery.scrollTo.js"></script>
+<script src="assets/js/jquery.easing.js"></script>
+<script src="assets/js/scripts.js"></script> 
+<script src="assets/js/google-code-prettify/prettify.js"></script> 
+<script src="assets/js/bootstrap-min.js"></script> 
+</body>
+</html>
