@@ -1,0 +1,56 @@
+<mjml>
+
+  <!-- header open -->
+
+  <mj-head>
+    <mj-preview>Especial Topshop, Zara, H&M y Forever 21. Grandes descuentos!
+    </mj-preview>
+    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css?family=Montserrat" />
+    <mj-attributes>
+      <mj-image padding="0" />
+      <mj-all font-family="Montserrat" font-size="14px" color="#303535" />
+    </mj-attributes>
+    <mj-style>
+      a.link { text-decoration:underline; color:#e64c3c; } a.link-nodecor { text-decoration:none; color:#303535; } a.link-underline { text-decoration:underline; color:#999; }
+    </mj-style>
+  </mj-head>
+  
+  <mj-body>
+    <mj-container background-color="#ffffff">
+      <mj-section>
+        <mj-column>
+          <mj-image src="images/base_logo.png" width="300px" padding="30px 20px 0" href="http://www.sensacional.cl/">
+          </mj-image>
+        </mj-column>
+      </mj-section>
+      <!-- header close -->
+
+
+      <mj-section>
+        <mj-column>
+
+        </mj-column>
+      </mj-section>
+
+
+      <!--footer open-->
+      <mj-section>
+        <mj-column>
+          <mj-social mode="horizontal" display="facebook:url instagram:url" facebook-icon-color="#fff" instagram-icon-color="#fff" facebook-href="https://www.facebook.com/sensacional.cl/" instagram-href="https://www.instagram.com/sensacional.cl/" facebook-content=""
+            instagram-content="" base-url="images/" />
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column>
+          <mj-text font-size="18px" padding="0 0 10px" align="center">Servicio al Cliente
+          </mj-text>
+          <mj-text font-size="12px" padding="0" align="center">
+            <a href="mailto:soporte@sensacional.cl" class="link-nodecor">soporte@sensacional.cl
+                  </a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
+<!--footer close-->

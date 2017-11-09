@@ -1,0 +1,5306 @@
+# Copyright (C) 2015 XTemos
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Basel 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
+"POT-Creation-Date: 2017-10-10 10:55+0300\n"
+"PO-Revision-Date: 2016-10-28 09:59+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: js\n"
+"X-Poedit-SearchPathExcluded-1: sass\n"
+
+#: 404.php:11
+msgid "Not Found"
+msgstr ""
+
+#: 404.php:16
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr ""
+
+#: 404.php:17
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: author-bio.php:24
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: author-bio.php:28
+#, php-format
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: comments.php:29
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:49
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:50
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:51
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:56
+msgid "Comments are closed."
+msgstr ""
+
+#: content-none.php:9
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:13
+msgid ""
+"Apologies, but no results were found. Perhaps searching will help find a "
+"related post."
+msgstr ""
+
+#: content-portfolio.php:44
+msgid "View Large"
+msgstr ""
+
+#: content.php:119
+msgid "Read More"
+msgstr ""
+
+#: content.php:167
+msgid "Pages:"
+msgstr ""
+
+#: footer.php:30
+msgid "All rights reserved"
+msgstr ""
+
+#: functions.php:115
+msgid "Processing"
+msgstr ""
+
+#: functions.php:116
+msgid "Product was successfully added to your cart."
+msgstr ""
+
+#: functions.php:117
+msgid "Continue shopping"
+msgstr ""
+
+#: functions.php:118 woocommerce/cart/mini-cart.php:83
+msgid "View Cart"
+msgstr ""
+
+#: functions.php:119 woocommerce/cart/mini-cart.php:84
+msgid "Checkout"
+msgstr ""
+
+#: functions.php:120
+msgid "days"
+msgstr ""
+
+#: functions.php:121
+msgid "hr"
+msgstr ""
+
+#: functions.php:122
+msgid "min"
+msgstr ""
+
+#: functions.php:123
+msgid "sc"
+msgstr ""
+
+#: functions.php:124
+msgid "Loading..."
+msgstr ""
+
+#: functions.php:125 woocommerce/single-product/photo-swipe-template.php:29
+msgid "Close (Esc)"
+msgstr ""
+
+#: functions.php:126
+msgid "Share on Facebook"
+msgstr ""
+
+#: functions.php:127
+msgid "Pin it"
+msgstr ""
+
+#: functions.php:128
+msgid "Tweet"
+msgstr ""
+
+#: functions.php:129
+msgid "Download image"
+msgstr ""
+
+#: functions.php:142
+msgid "View all results"
+msgstr ""
+
+#: header.php:30 inc/settings.php:529
+msgid "Shopping cart"
+msgstr ""
+
+#: header.php:31 inc/template-tags.php:1179
+msgid "close"
+msgstr ""
+
+#: inc/admin/dashboard/dashboard.php:19
+msgid "Base import"
+msgstr ""
+
+#: inc/admin/dashboard/dashboard.php:20
+msgid "Additional pages"
+msgstr ""
+
+#: inc/admin/dashboard/dashboard.php:32 inc/admin/dashboard/dashboard.php:33
+msgid "Dummy Content"
+msgstr ""
+
+#: inc/admin/dashboard/views/tabs/additional.php:7
+#: inc/admin/dashboard/views/tabs/additional.php:23
+#: inc/admin/dashboard/views/tabs/shop.php:7
+#: inc/admin/dashboard/views/tabs/shop.php:23
+msgid "Optional"
+msgstr ""
+
+#: inc/admin/dashboard/views/tabs/home.php:7
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: inc/admin/dashboard/views/tabs/home.php:32
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: inc/admin/init.php:98
+msgid "Search for options"
+msgstr ""
+
+#: inc/classes/Import.php:33
+msgid "Import page"
+msgstr ""
+
+#: inc/classes/Import.php:43
+#, php-format
+msgid ""
+"To import data properly we recommend you to install <strong><a href=\"%s"
+"\">WooCommerce</a></strong> plugin"
+msgstr ""
+
+#: inc/classes/Import.php:54
+#, php-format
+msgid ""
+"You need to install the following plugins to use our import function: "
+"<strong><a href=\"%s\">%s</a></strong>"
+msgstr ""
+
+#: inc/classes/Import.php:69
+msgid "Import base data"
+msgstr ""
+
+#: inc/classes/Import.php:70
+msgid "Activate base version"
+msgstr ""
+
+#: inc/classes/Import.php:117
+msgid "Set up version"
+msgstr ""
+
+#: inc/classes/Metaboxes.php:121
+msgid "Inherit"
+msgstr ""
+
+#: inc/classes/Metaboxes.php:163
+msgid "Add \"New\" label"
+msgstr ""
+
+#: inc/classes/Metaboxes.php:177 inc/settings.php:1969
+msgid "Hide tabs headings"
+msgstr ""
+
+#: inc/classes/Metaboxes.php:184 inc/settings.php:1545
+msgid "Grid swatch attribute to display"
+msgstr ""
+
+#: inc/classes/Metaboxes.php:185
+msgid ""
+"Choose attribute that will be shown on products grid for this particular "
+"product"
+msgstr ""
+
+#: inc/classes/Metaboxes.php:192
+msgid "Product video URL"
+msgstr ""
+
+#: inc/classes/Metaboxes.php:199
+msgid "Instagram product hashtag"
+msgstr ""
+
+#: inc/classes/Metaboxes.php:206 inc/classes/Metaboxes.php:407
+#: inc/settings.php:1931
+msgid "Product background"
+msgstr ""
+
+#: inc/classes/Metaboxes.php:247
+msgid "After content"
+msgstr ""
+
+#: inc/classes/Metaboxes.php:248
+msgid "Before content"
+msgstr ""
+
+#: inc/classes/Metaboxes.php:249
+msgid "Prefooter"
+msgstr ""
+
+#: inc/classes/Metaboxes.php:287 inc/classes/Metaboxes.php:324
+msgid "Category Settings"
+msgstr ""
+
+#: inc/classes/Metaboxes.php:408 inc/settings.php:1932
+msgid ""
+"Set background for your products page. You can also specify different "
+"background for particular products while editing it."
+msgstr ""
+
+#: inc/classes/Metaboxes.php:418
+msgid "Sidebar"
+msgstr ""
+
+#: inc/classes/Notices.php:69
+#, php-format
+msgid "<a href=\"%1$s\">Dismiss Notice</a>"
+msgstr ""
+
+#: inc/classes/Search.php:84
+msgid "No products found"
+msgstr ""
+
+#: inc/functions.php:178
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/functions.php:513
+msgid "Scroll To Top"
+msgstr ""
+
+#: inc/functions.php:662 inc/third-party/nav-menu-images/inc/walker.php:132
+#: inc/woocommerce.php:2034
+msgid "Hot"
+msgstr ""
+
+#: inc/functions.php:665 inc/third-party/nav-menu-images/inc/walker.php:133
+#: inc/woocommerce.php:2027 woocommerce/loop/sale-flash.php:16
+msgid "Sale"
+msgstr ""
+
+#: inc/functions.php:668 inc/third-party/nav-menu-images/inc/walker.php:134
+#: inc/woocommerce.php:2037
+msgid "New"
+msgstr ""
+
+#: inc/settings.php:23 inc/settings.php:24
+msgid "Theme Settings"
+msgstr ""
+
+#: inc/settings.php:86
+msgid "General"
+msgstr ""
+
+#: inc/settings.php:93 inc/settings.php:100
+msgid "Upload image: png, ico"
+msgstr ""
+
+#: inc/settings.php:95
+msgid "Favicon image"
+msgstr ""
+
+#: inc/settings.php:102
+msgid "Favicon retina image"
+msgstr ""
+
+#: inc/settings.php:107
+msgid "Disable admin bar"
+msgstr ""
+
+#: inc/settings.php:108
+msgid "You can disable admin bar on front end"
+msgstr ""
+
+#: inc/settings.php:114
+msgid "Show comments on page"
+msgstr ""
+
+#: inc/settings.php:120
+msgid "Google map API key"
+msgstr ""
+
+#: inc/settings.php:121 inc/vc-config.php:1218
+msgid ""
+"Obrain API key <a href=\"https://developers.google.com/maps/documentation/"
+"javascript/get-api-key\" target=\"_blank\">here</a> to use our Google Map VC "
+"element."
+msgstr ""
+
+#: inc/settings.php:127
+msgid "Search post type"
+msgstr ""
+
+#: inc/settings.php:128
+msgid "You can set up site search for posts or for products (woocommerce)"
+msgstr ""
+
+#: inc/settings.php:130 woocommerce/cart/cart.php:36
+#: woocommerce/cart/cart.php:79
+msgid "Product"
+msgstr ""
+
+#: inc/settings.php:131 inc/vc-config.php:286
+msgid "Post"
+msgstr ""
+
+#: inc/settings.php:138
+msgid "Search by product SKU"
+msgstr ""
+
+#: inc/settings.php:147
+msgid "General Layout"
+msgstr ""
+
+#: inc/settings.php:154
+msgid "Site width"
+msgstr ""
+
+#: inc/settings.php:155
+msgid "You can make your content wrapper boxed or full width"
+msgstr ""
+
+#: inc/settings.php:157 inc/third-party/nav-menu-images/inc/walker.php:95
+msgid "Full width"
+msgstr ""
+
+#: inc/settings.php:158 inc/vc-config.php:1619
+msgid "Boxed"
+msgstr ""
+
+#: inc/settings.php:159
+msgid "Content full width"
+msgstr ""
+
+#: inc/settings.php:160
+msgid "Wide (1600 px)"
+msgstr ""
+
+#: inc/settings.php:168
+msgid "Main Layout"
+msgstr ""
+
+#: inc/settings.php:169
+msgid "Select main content and sidebar alignment."
+msgstr ""
+
+#: inc/settings.php:190 inc/settings.php:1489 inc/settings.php:1841
+msgid "Sidebar size"
+msgstr ""
+
+#: inc/settings.php:191
+msgid "You can set different sizes for your pages sidebar"
+msgstr ""
+
+#: inc/settings.php:193 inc/settings.php:253 inc/settings.php:1115
+#: inc/settings.php:1492 inc/settings.php:1844 inc/settings.php:1878
+#: inc/vc-config.php:580 inc/vc-config.php:920 inc/vc-config.php:1014
+#: inc/vc-config.php:1352 inc/vc-config.php:1464 inc/vc-config.php:2344
+msgid "Small"
+msgstr ""
+
+#: inc/settings.php:194 inc/settings.php:1116 inc/settings.php:1493
+#: inc/settings.php:1845 inc/settings.php:1879 inc/vc-config.php:2345
+msgid "Medium"
+msgstr ""
+
+#: inc/settings.php:195 inc/settings.php:254 inc/settings.php:1117
+#: inc/settings.php:1494 inc/settings.php:1846 inc/settings.php:1880
+#: inc/vc-config.php:581 inc/vc-config.php:921 inc/vc-config.php:1015
+#: inc/vc-config.php:1353 inc/vc-config.php:1465 inc/vc-config.php:2346
+#: inc/vc-config.php:3741
+msgid "Large"
+msgstr ""
+
+#: inc/settings.php:203
+msgid "Site background"
+msgstr ""
+
+#: inc/settings.php:204
+msgid "Set background image or color for body. Only for boxed layout"
+msgstr ""
+
+#: inc/settings.php:211
+msgid "Page heading"
+msgstr ""
+
+#: inc/settings.php:218
+msgid "Page title design"
+msgstr ""
+
+#: inc/settings.php:220 inc/settings.php:252 inc/settings.php:265
+#: inc/settings.php:1127 inc/settings.php:1856
+#: inc/third-party/nav-menu-images/inc/walker.php:94 inc/vc-config.php:94
+#: inc/vc-config.php:551 inc/vc-config.php:579 inc/vc-config.php:590
+#: inc/vc-config.php:919 inc/vc-config.php:929 inc/vc-config.php:989
+#: inc/vc-config.php:1001 inc/vc-config.php:1012 inc/vc-config.php:1351
+#: inc/vc-config.php:1463 inc/vc-config.php:1473 inc/vc-config.php:1482
+#: inc/vc-config.php:3676 inc/vc-config.php:3689 inc/vc-config.php:3764
+#: inc/widgets/class-widget-sorting.php:50
+msgid "Default"
+msgstr ""
+
+#: inc/settings.php:221 inc/settings.php:767
+msgid "Centered"
+msgstr ""
+
+#: inc/settings.php:222 inc/settings.php:535 inc/settings.php:659
+#: inc/third-party/nav-menu-images/inc/walker.php:154
+#: inc/third-party/nav-menu-images/inc/walker.php:165
+msgid "Disable"
+msgstr ""
+
+#: inc/settings.php:230
+msgid "Show breadcrumbs"
+msgstr ""
+
+#: inc/settings.php:231
+msgid "Displays a full chain of links to the current page."
+msgstr ""
+
+#: inc/settings.php:237
+msgid "Pages heading background"
+msgstr ""
+
+#: inc/settings.php:238
+msgid ""
+"Set background image or color, that will be used as a default for all page "
+"titles, shop page and blog."
+msgstr ""
+
+#: inc/settings.php:239
+msgid "You can also specify other image for particular page"
+msgstr ""
+
+#: inc/settings.php:249
+msgid "Page title size"
+msgstr ""
+
+#: inc/settings.php:250
+msgid "You can set different sizes for your pages titles"
+msgstr ""
+
+#: inc/settings.php:262
+msgid "Text color for page title"
+msgstr ""
+
+#: inc/settings.php:263
+msgid ""
+"You can set different colors depending on it's background. May be light or "
+"dark"
+msgstr ""
+
+#: inc/settings.php:266 inc/settings.php:353 inc/settings.php:562
+#: inc/settings.php:747 inc/settings.php:1293
+#: inc/third-party/nav-menu-images/inc/walker.php:143 inc/vc-config.php:1270
+#: inc/vc-config.php:3540
+msgid "Light"
+msgstr ""
+
+#: inc/settings.php:267 inc/settings.php:352 inc/settings.php:561
+#: inc/settings.php:746 inc/settings.php:1292
+#: inc/third-party/nav-menu-images/inc/walker.php:144 inc/vc-config.php:1269
+#: inc/vc-config.php:3541
+msgid "Dark"
+msgstr ""
+
+#: inc/settings.php:275 inc/settings.php:404
+msgid "Header"
+msgstr ""
+
+#: inc/settings.php:281
+msgid "Logo"
+msgstr ""
+
+#: inc/settings.php:288 inc/settings.php:295 inc/settings.php:302
+msgid "Upload image: png, jpg or gif file"
+msgstr ""
+
+#: inc/settings.php:290
+msgid "Logo image"
+msgstr ""
+
+#: inc/settings.php:297
+msgid "Logo image for sticky header"
+msgstr ""
+
+#: inc/settings.php:304
+msgid "Logo image - white"
+msgstr ""
+
+#: inc/settings.php:310
+msgid "Logo container width"
+msgstr ""
+
+#: inc/settings.php:311
+msgid "Set width for logo area in the header. In percentages"
+msgstr ""
+
+#: inc/settings.php:322
+msgid "Logo image maximum width"
+msgstr ""
+
+#: inc/settings.php:323
+msgid "Set maximum width for logo image in the header. In pixels"
+msgstr ""
+
+#: inc/settings.php:343
+msgid "Top bar"
+msgstr ""
+
+#: inc/settings.php:344
+msgid "Information about the header"
+msgstr ""
+
+#: inc/settings.php:350
+msgid "Top bar text color"
+msgstr ""
+
+#: inc/settings.php:360
+msgid "Top bar background"
+msgstr ""
+
+#: inc/settings.php:370
+msgid "Text in the header top bar"
+msgstr ""
+
+#: inc/settings.php:371
+msgid ""
+"Place here text you want to see in the header top bar. You can use "
+"shortocdes.<br> Ex.: [social_buttons]"
+msgstr ""
+
+#: inc/settings.php:379
+msgid "Header Layout"
+msgstr ""
+
+#: inc/settings.php:386 inc/vc-config.php:391
+msgid "Full Width"
+msgstr ""
+
+#: inc/settings.php:387
+msgid "Make header full width"
+msgstr ""
+
+#: inc/settings.php:397
+msgid "Sticky Header"
+msgstr ""
+
+#: inc/settings.php:398
+msgid "Enable/disable sticky header option"
+msgstr ""
+
+#: inc/settings.php:405
+msgid "Set your header design"
+msgstr ""
+
+#: inc/settings.php:446
+msgid "Header above the content"
+msgstr ""
+
+#: inc/settings.php:447
+msgid "Overlap page content with this header (header is transparent)."
+msgstr ""
+
+#: inc/settings.php:457
+msgid "Right column width"
+msgstr ""
+
+#: inc/settings.php:458
+msgid ""
+"Set width for icons and links area in the header (shopping cart, wishlist, "
+"search). In pixels"
+msgstr ""
+
+#: inc/settings.php:471
+msgid "Header height"
+msgstr ""
+
+#: inc/settings.php:485
+msgid "Sticky header height"
+msgstr ""
+
+#: inc/settings.php:498
+msgid "Mobile header height"
+msgstr ""
+
+#: inc/settings.php:510
+msgid "Shopping cart widget"
+msgstr ""
+
+#: inc/settings.php:517
+msgid "Shopping cart position"
+msgstr ""
+
+#: inc/settings.php:518
+msgid "Shopping cart widget may be placed in the header or as a sidebar."
+msgstr ""
+
+#: inc/settings.php:520
+msgid "Hidden sidebar"
+msgstr ""
+
+#: inc/settings.php:521
+msgid "Dropdown widget in header"
+msgstr ""
+
+#: inc/settings.php:530
+msgid "Set your shopping cart widget design in the header"
+msgstr ""
+
+#: inc/settings.php:532
+msgid "Design 1"
+msgstr ""
+
+#: inc/settings.php:533
+msgid "Design 2"
+msgstr ""
+
+#: inc/settings.php:534
+msgid "Design 3"
+msgstr ""
+
+#: inc/settings.php:543
+msgid "Alternative shopping cart icon"
+msgstr ""
+
+#: inc/settings.php:544
+msgid "Use alternative cart icon in header icons links"
+msgstr ""
+
+#: inc/settings.php:551
+msgid "Appearance"
+msgstr ""
+
+#: inc/settings.php:558
+msgid "Header text color"
+msgstr ""
+
+#: inc/settings.php:559
+msgid "You can change colors of links and icons for the header"
+msgstr ""
+
+#: inc/settings.php:570
+msgid "Header background"
+msgstr ""
+
+#: inc/settings.php:577
+msgid "Header Border"
+msgstr ""
+
+#: inc/settings.php:579
+msgid "Border bottom for the header."
+msgstr ""
+
+#: inc/settings.php:587
+msgid "Icons font for header icons"
+msgstr ""
+
+#: inc/settings.php:588
+msgid "Choose between two icon fonts: Font Awesome and Line Icons"
+msgstr ""
+
+#: inc/settings.php:601
+msgid "Main menu"
+msgstr ""
+
+#: inc/settings.php:608
+msgid "Main menu align"
+msgstr ""
+
+#: inc/settings.php:609
+msgid "Set menu text position on some headers"
+msgstr ""
+
+#: inc/settings.php:611 inc/vc-config.php:178 inc/vc-config.php:389
+#: inc/vc-config.php:600 inc/vc-config.php:1411 inc/vc-config.php:1628
+#: inc/vc-config.php:2490
+msgid "Left"
+msgstr ""
+
+#: inc/settings.php:612 inc/vc-config.php:179 inc/vc-config.php:599
+#: inc/vc-config.php:1412 inc/vc-config.php:1627
+msgid "Center"
+msgstr ""
+
+#: inc/settings.php:613 inc/vc-config.php:180 inc/vc-config.php:390
+#: inc/vc-config.php:601 inc/vc-config.php:1413 inc/vc-config.php:1629
+#: inc/vc-config.php:2491
+msgid "Right"
+msgstr ""
+
+#: inc/settings.php:621
+msgid "Mobile menu side"
+msgstr ""
+
+#: inc/settings.php:622
+msgid "Choose from which side mobile navigation will be shown"
+msgstr ""
+
+#: inc/settings.php:633 inc/settings.php:2267
+msgid "Other"
+msgstr ""
+
+#: inc/settings.php:640
+msgid "Categories menu"
+msgstr ""
+
+#: inc/settings.php:641
+msgid "Use your custom menu as a categories navigation for particular headers."
+msgstr ""
+
+#: inc/settings.php:647
+msgid "Text in the header"
+msgstr ""
+
+#: inc/settings.php:648
+msgid ""
+"You can place here some advertisement or phone numbers. You can use "
+"shortcode to place here HTML block [html_block id=\"\"]"
+msgstr ""
+
+#: inc/settings.php:654
+msgid "Search widget"
+msgstr ""
+
+#: inc/settings.php:655
+msgid "Display search icon in the header in different views"
+msgstr ""
+
+#: inc/settings.php:657 inc/widgets/class-widget-layered-nav.php:66
+msgid "Dropdown"
+msgstr ""
+
+#: inc/settings.php:658
+msgid "Full screen"
+msgstr ""
+
+#: inc/settings.php:666
+msgid "AJAX Search"
+msgstr ""
+
+#: inc/settings.php:672
+msgid "Display wishlist icon"
+msgstr ""
+
+#: inc/settings.php:679
+msgid "Footer"
+msgstr ""
+
+#: inc/settings.php:686
+msgid "Footer layout"
+msgstr ""
+
+#: inc/settings.php:687
+msgid ""
+"Choose your footer layout. Depending on columns number you will have "
+"different number of widget areas for footer in Appearance->Widgets"
+msgstr ""
+
+#: inc/settings.php:743
+msgid "Footer text color"
+msgstr ""
+
+#: inc/settings.php:744
+msgid "Choose your footer color scheme"
+msgstr ""
+
+#: inc/settings.php:754
+msgid "Footer background"
+msgstr ""
+
+#: inc/settings.php:764
+msgid "Copyrights layout"
+msgstr ""
+
+#: inc/settings.php:766
+msgid "Two columns"
+msgstr ""
+
+#: inc/settings.php:774
+msgid "Copyrights"
+msgstr ""
+
+#: inc/settings.php:775
+msgid ""
+"Place here text you want to see in the copyrights area. You can use "
+"shortocdes.<br> Ex.: [social_buttons]"
+msgstr ""
+
+#: inc/settings.php:781
+msgid "Text next to copyrights"
+msgstr ""
+
+#: inc/settings.php:782
+msgid "You can use shortocdes.<br> Ex.: [social_buttons]"
+msgstr ""
+
+#: inc/settings.php:788
+msgid "HTML before footer"
+msgstr ""
+
+#: inc/settings.php:789
+msgid "Custom HTML Allowed (wp_kses)"
+msgstr ""
+
+#: inc/settings.php:790
+msgid ""
+"This is the text before footer field, again good for additional info. You "
+"can place here any shortcode, for ex.: [html_block id=\"\"]"
+msgstr ""
+
+#: inc/settings.php:808
+msgid "Sticky footer"
+msgstr ""
+
+#: inc/settings.php:815
+msgid "Typography"
+msgstr ""
+
+#: inc/settings.php:822
+msgid "Text font"
+msgstr ""
+
+#: inc/settings.php:831
+msgid "Set you typography options for body, paragraphs."
+msgstr ""
+
+#: inc/settings.php:842
+msgid "Primary font"
+msgstr ""
+
+#: inc/settings.php:851
+msgid "Set you typography options for titles, post names."
+msgstr ""
+
+#: inc/settings.php:862
+msgid "Entities names"
+msgstr ""
+
+#: inc/settings.php:871
+msgid "Titles for posts, products, categories and pages"
+msgstr ""
+
+#: inc/settings.php:882
+msgid "Secondary font"
+msgstr ""
+
+#: inc/settings.php:891
+msgid "Use for secondary titles (use CSS class \"font-alt\" or \"title-alt\")"
+msgstr ""
+
+#: inc/settings.php:903
+msgid "Widget titles font"
+msgstr ""
+
+#: inc/settings.php:917
+msgid "Navigation font"
+msgstr ""
+
+#: inc/settings.php:933
+msgid "Typekit Fonts"
+msgstr ""
+
+#: inc/settings.php:941
+msgid "Enter your "
+msgstr ""
+
+#: inc/settings.php:944
+msgid "Typekit Typekit Font Face"
+msgstr ""
+
+#: inc/settings.php:947
+msgid "Example: futura-pt, lato"
+msgstr ""
+
+#: inc/settings.php:954
+msgid "Styles and colors"
+msgstr ""
+
+#: inc/settings.php:961
+msgid "Primary Color"
+msgstr ""
+
+#: inc/settings.php:962
+msgid ""
+"Pick a background color for the theme buttons and other colored elements."
+msgstr ""
+
+#: inc/settings.php:970
+msgid "Secondary Color"
+msgstr ""
+
+#: inc/settings.php:977
+msgid "Dark version"
+msgstr ""
+
+#: inc/settings.php:978
+msgid "Turn your website color to dark version"
+msgstr ""
+
+#: inc/settings.php:985
+msgid "Settings for all buttons used in the template."
+msgstr ""
+
+#: inc/settings.php:990
+msgid "Regular buttons color"
+msgstr ""
+
+#: inc/settings.php:1002
+msgid "Regular buttons hover color"
+msgstr ""
+
+#: inc/settings.php:1018
+msgid "Shop buttons color"
+msgstr ""
+
+#: inc/settings.php:1031
+msgid "Shop buttons hover color"
+msgstr ""
+
+#: inc/settings.php:1048
+msgid "Accent buttons color"
+msgstr ""
+
+#: inc/settings.php:1059
+msgid "Accent buttons hover color"
+msgstr ""
+
+#: inc/settings.php:1084 inc/template-tags.php:665 inc/vc-config.php:625
+msgid "Blog"
+msgstr ""
+
+#: inc/settings.php:1091
+msgid "Blog Layout"
+msgstr ""
+
+#: inc/settings.php:1092
+msgid "Select main content and sidebar alignment for blog pages."
+msgstr ""
+
+#: inc/settings.php:1112
+msgid "Blog Sidebar size"
+msgstr ""
+
+#: inc/settings.php:1113
+msgid "You can set different sizes for your blog pages sidebar"
+msgstr ""
+
+#: inc/settings.php:1124
+msgid "Blog Design"
+msgstr ""
+
+#: inc/settings.php:1125
+msgid "You can use different design for your blog styled for the theme."
+msgstr ""
+
+#: inc/settings.php:1128
+msgid "Default alternative"
+msgstr ""
+
+#: inc/settings.php:1129
+msgid "Small images"
+msgstr ""
+
+#: inc/settings.php:1130 inc/settings.php:1349 inc/vc-config.php:3292
+msgid "Masonry grid"
+msgstr ""
+
+#: inc/settings.php:1131
+msgid "Mask on image"
+msgstr ""
+
+#: inc/settings.php:1138 inc/vc-config.php:741
+msgid "Blog items columns"
+msgstr ""
+
+#: inc/settings.php:1139
+msgid "For masonry grid design"
+msgstr ""
+
+#: inc/settings.php:1151
+msgid "Posts excerpt"
+msgstr ""
+
+#: inc/settings.php:1152
+msgid ""
+"If you will set this option to \"Excerpt\" then you are able to set custom "
+"excerpt for each post or it will be cutted from the post content. If you "
+"choose \"Full content\" then all content will be shown, or you can also add "
+"\"Read more button\" while editing the post and by doing this cut your "
+"excerpt length as you need."
+msgstr ""
+
+#: inc/settings.php:1154
+msgid "Excerpt"
+msgstr ""
+
+#: inc/settings.php:1155
+msgid "Full content"
+msgstr ""
+
+#: inc/settings.php:1162
+msgid "Excerpt length"
+msgstr ""
+
+#: inc/settings.php:1163
+msgid ""
+"Number of words that will be displayed for each post if you use \"Excerpt\" "
+"mode and don't set custom excerpt for each post."
+msgstr ""
+
+#: inc/settings.php:1172 inc/settings.php:2190
+msgid "Share buttons"
+msgstr ""
+
+#: inc/settings.php:1173
+msgid "Display share icons on single post page"
+msgstr ""
+
+#: inc/settings.php:1179
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/settings.php:1180
+msgid "Next and previous posts links on single post page"
+msgstr ""
+
+#: inc/settings.php:1186 inc/vc-config.php:3584
+msgid "Author bio"
+msgstr ""
+
+#: inc/settings.php:1187
+msgid "Display information about the post author"
+msgstr ""
+
+#: inc/settings.php:1193
+msgid "Related posts"
+msgstr ""
+
+#: inc/settings.php:1194
+msgid "Show related posts on single post page"
+msgstr ""
+
+#: inc/settings.php:1202 inc/vc-config.php:1075
+msgid "Portfolio"
+msgstr ""
+
+#: inc/settings.php:1209
+msgid "Portfolio Style"
+msgstr ""
+
+#: inc/settings.php:1210
+msgid "You can use different styles for your projects."
+msgstr ""
+
+#: inc/settings.php:1212 inc/vc-config.php:1097
+msgid "Show text on mouse over"
+msgstr ""
+
+#: inc/settings.php:1213 inc/vc-config.php:1098
+msgid "Hide text on mouse over"
+msgstr ""
+
+#: inc/settings.php:1214 inc/vc-config.php:1099
+msgid "Bordered style"
+msgstr ""
+
+#: inc/settings.php:1215 inc/vc-config.php:1100
+msgid "Bordered inverse"
+msgstr ""
+
+#: inc/settings.php:1216 inc/vc-config.php:1101
+msgid "Text under image"
+msgstr ""
+
+#: inc/settings.php:1217 inc/vc-config.php:1102
+msgid "Text with background"
+msgstr ""
+
+#: inc/settings.php:1218 inc/vc-config.php:1103
+msgid "Text with background alternative"
+msgstr ""
+
+#: inc/settings.php:1225
+msgid "Full Width portfolio"
+msgstr ""
+
+#: inc/settings.php:1226
+msgid "Makes container 100% width of the page"
+msgstr ""
+
+#: inc/settings.php:1232
+msgid "Projects columns"
+msgstr ""
+
+#: inc/settings.php:1233
+msgid "How many projects you want to show per row"
+msgstr ""
+
+#: inc/settings.php:1245 inc/vc-config.php:1119
+msgid "Space between projects"
+msgstr ""
+
+#: inc/settings.php:1246
+msgid "You can set different spacing between blocks on portfolio page"
+msgstr ""
+
+#: inc/settings.php:1260
+msgid "Portfolio pagination"
+msgstr ""
+
+#: inc/settings.php:1262
+msgid "Pagination links"
+msgstr ""
+
+#: inc/settings.php:1263 inc/settings.php:1334 inc/vc-config.php:3281
+msgid "\"Load more\" button"
+msgstr ""
+
+#: inc/settings.php:1264 inc/settings.php:1335 inc/vc-config.php:3283
+msgid "Infinit scrolling"
+msgstr ""
+
+#: inc/settings.php:1271 inc/vc-config.php:697 inc/vc-config.php:3270
+msgid "Items per page"
+msgstr ""
+
+#: inc/settings.php:1277
+msgid "Filter background"
+msgstr ""
+
+#: inc/settings.php:1283 inc/vc-config.php:1132
+msgid "Show categories filters"
+msgstr ""
+
+#: inc/settings.php:1289
+msgid "Color scheme for filters"
+msgstr ""
+
+#: inc/settings.php:1290
+msgid "You can change colors of links in portfolio filters"
+msgstr ""
+
+#: inc/settings.php:1301
+msgid "Shop"
+msgstr ""
+
+#: inc/settings.php:1308
+msgid "Products per page"
+msgstr ""
+
+#: inc/settings.php:1309
+msgid "Number of products per page"
+msgstr ""
+
+#: inc/settings.php:1315
+msgid "Products columns"
+msgstr ""
+
+#: inc/settings.php:1316
+msgid "How many products you want to show per row"
+msgstr ""
+
+#: inc/settings.php:1331
+msgid "Products pagination"
+msgstr ""
+
+#: inc/settings.php:1333 inc/vc-config.php:704 inc/vc-config.php:1169
+#: inc/vc-config.php:3277
+msgid "Pagination"
+msgstr ""
+
+#: inc/settings.php:1342 inc/theme-setup.php:135
+msgid "Shop filters"
+msgstr ""
+
+#: inc/settings.php:1343
+msgid "Enable shop filters widget's area above the products."
+msgstr ""
+
+#: inc/settings.php:1350 inc/vc-config.php:3294
+msgid "Products may have different sizes"
+msgstr ""
+
+#: inc/settings.php:1359
+msgid "Action after add to cart"
+msgstr ""
+
+#: inc/settings.php:1360
+msgid ""
+"Choose between showing informative popup and opening shopping cart widget. "
+"Only for shop page."
+msgstr ""
+
+#: inc/settings.php:1362
+msgid "Show popup"
+msgstr ""
+
+#: inc/settings.php:1363
+msgid "Display widget"
+msgstr ""
+
+#: inc/settings.php:1364
+msgid "No action"
+msgstr ""
+
+#: inc/settings.php:1371 inc/vc-config.php:3307
+msgid "Products grid with different sizes"
+msgstr ""
+
+#: inc/settings.php:1380
+msgid "Hover on product"
+msgstr ""
+
+#: inc/settings.php:1381
+msgid "Choose one of those hover effects for products"
+msgstr ""
+
+#: inc/settings.php:1391
+msgid "AJAX shop"
+msgstr ""
+
+#: inc/settings.php:1392
+msgid "Enable AJAX functionality for filters widgets on shop."
+msgstr ""
+
+#: inc/settings.php:1398
+msgid "Scroll to top after AJAX"
+msgstr ""
+
+#: inc/settings.php:1399
+msgid "Disable scroll to top after AJAX."
+msgstr ""
+
+#: inc/settings.php:1405
+msgid "Hover image"
+msgstr ""
+
+#: inc/settings.php:1406
+msgid "Show second product image on hover."
+msgstr ""
+
+#: inc/settings.php:1412 inc/settings.php:1957 inc/vc-config.php:2324
+msgid "Countdown timer"
+msgstr ""
+
+#: inc/settings.php:1413 inc/settings.php:1958
+msgid "Show timer for products that have scheduled date for the sale price"
+msgstr ""
+
+#: inc/settings.php:1419 inc/woocommerce.php:489
+msgid "Quick View"
+msgstr ""
+
+#: inc/settings.php:1420
+msgid ""
+"Enable Quick view option. Ability to see the product information with AJAX."
+msgstr ""
+
+#: inc/settings.php:1426
+msgid "Show variations on quick view"
+msgstr ""
+
+#: inc/settings.php:1427
+msgid ""
+"Enable Quick view option for variable products. Will allow your users to "
+"purchase variable products directly from the quick view."
+msgstr ""
+
+#: inc/settings.php:1436
+msgid "Categories dropdown in WOO search form"
+msgstr ""
+
+#: inc/settings.php:1437
+msgid "Display categories select that allows users search products by category"
+msgstr ""
+
+#: inc/settings.php:1443 inc/vc-config.php:2737
+msgid "Categories design"
+msgstr ""
+
+#: inc/settings.php:1444
+msgid "Choose one of those designs for categories"
+msgstr ""
+
+#: inc/settings.php:1451
+msgid "Empty cart text"
+msgstr ""
+
+#: inc/settings.php:1452
+msgid "Text will be displayed if user don't add any products to cart"
+msgstr ""
+
+#: inc/settings.php:1461
+msgid "Shop page layout"
+msgstr ""
+
+#: inc/settings.php:1468
+msgid "Shop Layout"
+msgstr ""
+
+#: inc/settings.php:1469
+msgid "Select main content and sidebar alignment for shop pages."
+msgstr ""
+
+#: inc/settings.php:1490
+msgid "You can set different sizes for your shop pages sidebar"
+msgstr ""
+
+#: inc/settings.php:1501
+msgid "Shop title"
+msgstr ""
+
+#: inc/settings.php:1502
+msgid "Show title for shop page, product categories or tags."
+msgstr ""
+
+#: inc/settings.php:1508
+msgid "Categories menu in page heading"
+msgstr ""
+
+#: inc/settings.php:1509
+msgid "Show categories menu below page title"
+msgstr ""
+
+#: inc/settings.php:1515
+msgid "Show current category ancestors"
+msgstr ""
+
+#: inc/settings.php:1524
+msgid "Shop products view"
+msgstr ""
+
+#: inc/settings.php:1525
+msgid "You can set different view mode for the shop page"
+msgstr ""
+
+#: inc/settings.php:1527 inc/vc-config.php:1610 inc/vc-config.php:3190
+#: inc/vc-config.php:3765
+msgid "Grid"
+msgstr ""
+
+#: inc/settings.php:1528 inc/vc-config.php:3191
+msgid "List"
+msgstr ""
+
+#: inc/settings.php:1529
+msgid "Grid / List"
+msgstr ""
+
+#: inc/settings.php:1530
+msgid "List / Grid"
+msgstr ""
+
+#: inc/settings.php:1538
+msgid "Attribute swatches"
+msgstr ""
+
+#: inc/settings.php:1546
+msgid "Choose attribute that will be shown on products grid"
+msgstr ""
+
+#: inc/settings.php:1553
+msgid "Use images from product variations"
+msgstr ""
+
+#: inc/settings.php:1554
+msgid ""
+"If enabled swatches buttons will be filled with images choosed for product "
+"variations and not with images uploaded to attribute terms."
+msgstr ""
+
+#: inc/settings.php:1561 inc/template-tags.php:1548
+msgid "My Account"
+msgstr ""
+
+#: inc/settings.php:1568
+msgid "Login page tabs"
+msgstr ""
+
+#: inc/settings.php:1569
+msgid "Enable tabs for login and register forms"
+msgstr ""
+
+#: inc/settings.php:1575
+msgid "Registration text"
+msgstr ""
+
+#: inc/settings.php:1576
+msgid "Show some information about registration on your web-site"
+msgstr ""
+
+#: inc/settings.php:1582
+msgid "My Account link in header"
+msgstr ""
+
+#: inc/settings.php:1583
+msgid "Show links to login/register or my account page in the header"
+msgstr ""
+
+#: inc/settings.php:1591
+msgid "Catalog mode"
+msgstr ""
+
+#: inc/settings.php:1598
+msgid "Enable catalog mode"
+msgstr ""
+
+#: inc/settings.php:1599
+msgid ""
+"You can hide all \"Add to cart\" buttons, cart widget, cart and checkout "
+"pages. This will allow you to showcase your products as an online catalog "
+"without ability to make a purchase."
+msgstr ""
+
+#: inc/settings.php:1606
+msgid "Cookie Law Info"
+msgstr ""
+
+#: inc/settings.php:1613
+msgid "Show cookies info"
+msgstr ""
+
+#: inc/settings.php:1614
+msgid ""
+"Under EU privacy regulations, websites must make it clear to visitors what "
+"information about them is being stored. This specifically includes cookies. "
+"Turn on this option and user will see info box at the bottom of the page "
+"that your web-site is using cookies."
+msgstr ""
+
+#: inc/settings.php:1620
+msgid "Popup text"
+msgstr ""
+
+#: inc/settings.php:1621
+msgid ""
+"Place here some information about cookies usage that will be shown in the "
+"popup."
+msgstr ""
+
+#: inc/settings.php:1622
+msgid ""
+"We use cookies to improve your experience on our website. By browsing this "
+"website, you agree to our use of cookies."
+msgstr ""
+
+#: inc/settings.php:1627
+msgid "Page with details"
+msgstr ""
+
+#: inc/settings.php:1628
+msgid ""
+"Choose page that will contain detailed information about your Privacy Policy"
+msgstr ""
+
+#: inc/settings.php:1636
+msgid "Promo popup"
+msgstr ""
+
+#: inc/settings.php:1643
+msgid "Enable promo popup"
+msgstr ""
+
+#: inc/settings.php:1644
+msgid "Show promo popup to users when they enter the site."
+msgstr ""
+
+#: inc/settings.php:1650
+msgid "Promo popup text"
+msgstr ""
+
+#: inc/settings.php:1651
+msgid ""
+"Place here some promo text or use HTML block and place here it's shortcode"
+msgstr ""
+
+#: inc/settings.php:1675
+msgid "Show popup after"
+msgstr ""
+
+#: inc/settings.php:1677
+msgid "Some time"
+msgstr ""
+
+#: inc/settings.php:1678
+msgid "User scroll"
+msgstr ""
+
+#: inc/settings.php:1685
+msgid "Popup delay"
+msgstr ""
+
+#: inc/settings.php:1686
+msgid "Show popup after some time (in milliseconds)"
+msgstr ""
+
+#: inc/settings.php:1695
+msgid "Show after user scroll down the page"
+msgstr ""
+
+#: inc/settings.php:1696
+msgid "Set the number of pixels users have to scroll down before popup opens"
+msgstr ""
+
+#: inc/settings.php:1709
+msgid "Show after number of pages visited"
+msgstr ""
+
+#: inc/settings.php:1710
+msgid ""
+"You can choose how much pages user should change before popup will be shown."
+msgstr ""
+
+#: inc/settings.php:1720
+msgid "Popup background"
+msgstr ""
+
+#: inc/settings.php:1721
+msgid "Set background image or color for promo popup"
+msgstr ""
+
+#: inc/settings.php:1733
+msgid "Hide for mobile devices"
+msgstr ""
+
+#: inc/settings.php:1740
+msgid "Widgets"
+msgstr ""
+
+#: inc/settings.php:1747
+msgid "Toggle function for categories widget"
+msgstr ""
+
+#: inc/settings.php:1748
+msgid ""
+"Turn it on to enable accordion JS for the WooCommerce Product Categories "
+"widget. Useful if you have a lot of categories and subcategories."
+msgstr ""
+
+#: inc/settings.php:1754
+msgid "Scroll for filters widgets"
+msgstr ""
+
+#: inc/settings.php:1755
+msgid ""
+"You can limit your Layered Navigation widgets by height and enable nice "
+"scroll for them. Useful if you have a lot of product colors/sizes or other "
+"attributes for filters."
+msgstr ""
+
+#: inc/settings.php:1761
+msgid "Height for filters widgets"
+msgstr ""
+
+#: inc/settings.php:1775
+msgid "Product labels"
+msgstr ""
+
+#: inc/settings.php:1782
+msgid "Label shape"
+msgstr ""
+
+#: inc/settings.php:1784 inc/vc-config.php:1004
+msgid "Rounded"
+msgstr ""
+
+#: inc/settings.php:1785
+msgid "Rectangular"
+msgstr ""
+
+#: inc/settings.php:1792
+msgid "Shop sale label in percentage"
+msgstr ""
+
+#: inc/settings.php:1793
+msgid "Works with Simple, Variable and External products only."
+msgstr ""
+
+#: inc/settings.php:1799
+msgid "\"New\" label on products"
+msgstr ""
+
+#: inc/settings.php:1805
+msgid "\"Hot\" label on products"
+msgstr ""
+
+#: inc/settings.php:1806
+msgid ""
+"Your products marked as \"Featured\" will have a badge with \"Hot\" label."
+msgstr ""
+
+#: inc/settings.php:1813
+msgid "Product Page"
+msgstr ""
+
+#: inc/settings.php:1820
+msgid "Single Product Sidebar"
+msgstr ""
+
+#: inc/settings.php:1821
+msgid "Select main content and sidebar alignment for single product pages."
+msgstr ""
+
+#: inc/settings.php:1842
+msgid "You can set different sizes for your single product pages sidebar"
+msgstr ""
+
+#: inc/settings.php:1853
+msgid "Product page design"
+msgstr ""
+
+#: inc/settings.php:1854
+msgid "Choose between different predefined designs"
+msgstr ""
+
+#: inc/settings.php:1857 inc/vc-config.php:591
+msgid "Alternative"
+msgstr ""
+
+#: inc/settings.php:1858
+msgid "Images scroll"
+msgstr ""
+
+#: inc/settings.php:1859
+msgid "Compact"
+msgstr ""
+
+#: inc/settings.php:1866
+msgid "Force full width header for product page"
+msgstr ""
+
+#: inc/settings.php:1875
+msgid "Product image size"
+msgstr ""
+
+#: inc/settings.php:1876
+msgid ""
+"You can choose different page layout depending on the product image size you "
+"need"
+msgstr ""
+
+#: inc/settings.php:1890
+msgid "Thumbnails position"
+msgstr ""
+
+#: inc/settings.php:1891
+msgid "Use vertical or horizontal position for thumbnails"
+msgstr ""
+
+#: inc/settings.php:1893
+msgid "Left (vertical position)"
+msgstr ""
+
+#: inc/settings.php:1894
+msgid "Bottom (horizontal position)"
+msgstr ""
+
+#: inc/settings.php:1904
+msgid "Main carousel auto height"
+msgstr ""
+
+#: inc/settings.php:1910
+msgid "Main image click action"
+msgstr ""
+
+#: inc/settings.php:1912 inc/vc-config.php:1232
+msgid "Zoom"
+msgstr ""
+
+#: inc/settings.php:1913
+msgid "Photoswipe popup"
+msgstr ""
+
+#: inc/settings.php:1914 inc/vc-config.php:146
+msgid "None"
+msgstr ""
+
+#: inc/settings.php:1921
+msgid "Show \"Zoom image\" icon"
+msgstr ""
+
+#: inc/settings.php:1922
+msgid "Click to open image in popup and swipe to zoom"
+msgstr ""
+
+#: inc/settings.php:1938
+msgid "Show share buttons"
+msgstr ""
+
+#: inc/settings.php:1944
+msgid "Share buttons type"
+msgstr ""
+
+#: inc/settings.php:1946 inc/vc-config.php:910 inc/woocommerce.php:1704
+#: woocommerce/content-single-product.php:90
+#: woocommerce/single-product/photo-swipe-template.php:31
+msgid "Share"
+msgstr ""
+
+#: inc/settings.php:1947 inc/vc-config.php:911
+msgid "Follow"
+msgstr ""
+
+#: inc/settings.php:1964
+msgid "Show related products"
+msgstr ""
+
+#: inc/settings.php:1975
+msgid "Hide products navigation"
+msgstr ""
+
+#: inc/settings.php:1982
+msgid "Additional tab title"
+msgstr ""
+
+#: inc/settings.php:1983
+msgid "Leave empty to disable custom tab"
+msgstr ""
+
+#: inc/settings.php:1989
+msgid "Related product count"
+msgstr ""
+
+#: inc/settings.php:1995
+msgid "Images captions on Photo Swipe lightbox"
+msgstr ""
+
+#: inc/settings.php:2001
+msgid "Additional tab content"
+msgstr ""
+
+#: inc/settings.php:2016
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/settings.php:2024
+msgid "Global Custom CSS"
+msgstr ""
+
+#: inc/settings.php:2030
+msgid "Custom CSS for desktop"
+msgstr ""
+
+#: inc/settings.php:2036
+msgid "Custom CSS for tablet"
+msgstr ""
+
+#: inc/settings.php:2042
+msgid "Custom CSS for mobile landscape"
+msgstr ""
+
+#: inc/settings.php:2048
+msgid "Custom CSS for mobile"
+msgstr ""
+
+#: inc/settings.php:2054
+msgid "Custom JS"
+msgstr ""
+
+#: inc/settings.php:2062
+msgid "Global Custom JS"
+msgstr ""
+
+#: inc/settings.php:2068
+msgid "On document ready"
+msgstr ""
+
+#: inc/settings.php:2069
+msgid "Will be executed on $(document).ready()"
+msgstr ""
+
+#: inc/settings.php:2075
+msgid "Social"
+msgstr ""
+
+#: inc/settings.php:2081
+msgid "Links to social profiles"
+msgstr ""
+
+#: inc/settings.php:2088 inc/settings.php:2197
+msgid ""
+"Configurate your [social_buttons] shortcode. You can leave field empty to "
+"remove particular link. Note that there are two types of social buttons. "
+"First one is SHARE buttons [social_buttons type=\"share\"]. It displays "
+"icons that share your page in social media. And the second one is FOLLOW "
+"buttons [social_buttons type=\"follow\"]. Simply displays links to your "
+"social profiles. You can configure both types here."
+msgstr ""
+
+#: inc/settings.php:2093 inc/vc-config.php:1430
+msgid "Facebook link"
+msgstr ""
+
+#: inc/settings.php:2099 inc/vc-config.php:1435
+msgid "Twitter link"
+msgstr ""
+
+#: inc/settings.php:2105
+msgid "Google+"
+msgstr ""
+
+#: inc/settings.php:2111 inc/shortcodes.php:2621 inc/vc-config.php:1933
+msgid "Instagram"
+msgstr ""
+
+#: inc/settings.php:2117
+msgid "Pinterest link"
+msgstr ""
+
+#: inc/settings.php:2123
+msgid "Youtube link"
+msgstr ""
+
+#: inc/settings.php:2129
+msgid "Tumblr link"
+msgstr ""
+
+#: inc/settings.php:2135
+msgid "LinkedIn link"
+msgstr ""
+
+#: inc/settings.php:2141
+msgid "Vimeo link"
+msgstr ""
+
+#: inc/settings.php:2147
+msgid "Flickr link"
+msgstr ""
+
+#: inc/settings.php:2153
+msgid "Github link"
+msgstr ""
+
+#: inc/settings.php:2159
+msgid "Dribbble link"
+msgstr ""
+
+#: inc/settings.php:2165
+msgid "Behance link"
+msgstr ""
+
+#: inc/settings.php:2171
+msgid "SoundCloud link"
+msgstr ""
+
+#: inc/settings.php:2177
+msgid "Spotify link"
+msgstr ""
+
+#: inc/settings.php:2183
+msgid "OK link"
+msgstr ""
+
+#: inc/settings.php:2203
+msgid "Share in facebook"
+msgstr ""
+
+#: inc/settings.php:2209
+msgid "Share in twitter"
+msgstr ""
+
+#: inc/settings.php:2215
+msgid "Share in google plus"
+msgstr ""
+
+#: inc/settings.php:2221
+msgid "Share in pinterest"
+msgstr ""
+
+#: inc/settings.php:2227
+msgid "Share in OK"
+msgstr ""
+
+#: inc/settings.php:2233
+msgid "Share in whatsapp"
+msgstr ""
+
+#: inc/settings.php:2239
+msgid "Email for social links"
+msgstr ""
+
+#: inc/settings.php:2245
+msgid "Performance"
+msgstr ""
+
+#: inc/settings.php:2252
+msgid "Include minified CSS"
+msgstr ""
+
+#: inc/settings.php:2253
+msgid "Minified version of style.css file will be loaded (style.min.css)"
+msgstr ""
+
+#: inc/settings.php:2259
+msgid "Include minified JS"
+msgstr ""
+
+#: inc/settings.php:2260
+msgid ""
+"Minified version of functions.js and libraries.js file will be loaded (theme."
+"min.js)"
+msgstr ""
+
+#: inc/settings.php:2274
+msgid "Show Dummy Content link in admin menu"
+msgstr ""
+
+#: inc/settings.php:2282
+msgid "Maintenance"
+msgstr ""
+
+#: inc/settings.php:2289
+msgid "Enable maintenance mode"
+msgstr ""
+
+#: inc/settings.php:2290
+msgid "This will block non-logged users access to the site."
+msgstr ""
+
+#: inc/settings.php:2291
+msgid ""
+"If enabled you need to create maintenance page in Dashbard - Pages - Add "
+"new. Choose \"Template\" to be \"Maintenance\" in \"Page attributes\". Or "
+"you can import the page from our demo in Dashbard - Dummy Content"
+msgstr ""
+
+#: inc/shortcodes.php:245
+msgid "Unable to communicate with Instagram."
+msgstr ""
+
+#: inc/shortcodes.php:247
+msgid "Instagram did not return a 200."
+msgstr ""
+
+#: inc/shortcodes.php:252 inc/shortcodes.php:265 inc/shortcodes.php:270
+msgid "Instagram has returned invalid data."
+msgstr ""
+
+#: inc/shortcodes.php:306
+msgid "Instagram Image"
+msgstr ""
+
+#: inc/shortcodes.php:335
+msgid "Instagram did not return any images."
+msgstr ""
+
+#: inc/shortcodes.php:437
+msgid "Custom style"
+msgstr ""
+
+#: inc/shortcodes.php:551 inc/widgets/class-widget-price-filter.php:176
+#: inc/woocommerce.php:1507
+msgid "All"
+msgstr ""
+
+#: inc/shortcodes.php:596
+msgid "Load more projects"
+msgstr ""
+
+#: inc/shortcodes.php:785
+msgid "Load more posts"
+msgstr ""
+
+#: inc/shortcodes.php:1208 inc/vc-config.php:1147 inc/vc-config.php:2824
+#: inc/woocommerce.php:1503
+msgid "Categories"
+msgstr ""
+
+#: inc/shortcodes.php:1351
+msgid "Products"
+msgstr ""
+
+#: inc/shortcodes.php:1493
+msgid "Email:"
+msgstr ""
+
+#: inc/shortcodes.php:1999
+#, php-format
+msgid "Please, <a href=\"%s\">log in</a>"
+msgstr ""
+
+#: inc/shortcodes.php:2008
+#, php-format
+msgid "Welcome, <strong>%s</strong>"
+msgstr ""
+
+#: inc/shortcodes.php:2009 inc/template-tags.php:1552 inc/woocommerce.php:2110
+msgid "Logout"
+msgstr ""
+
+#: inc/shortcodes.php:2605
+msgid "Facebook"
+msgstr ""
+
+#: inc/shortcodes.php:2609
+msgid "Twitter"
+msgstr ""
+
+#: inc/shortcodes.php:2613
+msgid "Google"
+msgstr ""
+
+#: inc/shortcodes.php:2617
+msgid "Check this "
+msgstr ""
+
+#: inc/shortcodes.php:2617 inc/vc-config.php:1425
+msgid "Email"
+msgstr ""
+
+#: inc/shortcodes.php:2625
+msgid "YouTube"
+msgstr ""
+
+#: inc/shortcodes.php:2629
+msgid "Pinterest"
+msgstr ""
+
+#: inc/shortcodes.php:2633
+msgid "Tumblr"
+msgstr ""
+
+#: inc/shortcodes.php:2637
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/shortcodes.php:2641
+msgid "Vimeo"
+msgstr ""
+
+#: inc/shortcodes.php:2645
+msgid "Flickr"
+msgstr ""
+
+#: inc/shortcodes.php:2649
+msgid "GitHub"
+msgstr ""
+
+#: inc/shortcodes.php:2653
+msgid "Dribbble"
+msgstr ""
+
+#: inc/shortcodes.php:2657
+msgid "Behance"
+msgstr ""
+
+#: inc/shortcodes.php:2661
+msgid "Soundcloud"
+msgstr ""
+
+#: inc/shortcodes.php:2665
+msgid "Spotify"
+msgstr ""
+
+#: inc/shortcodes.php:2670
+msgid "Odnoklassniki"
+msgstr ""
+
+#: inc/shortcodes.php:2674
+msgid "WhatsApp"
+msgstr ""
+
+#: inc/shortcodes.php:3056 woocommerce/loop/pagination.php:31
+msgid "Load more products"
+msgstr ""
+
+#: inc/shortcodes.php:3058
+msgid "Load previous products"
+msgstr ""
+
+#: inc/shortcodes.php:3059
+msgid "Load next products"
+msgstr ""
+
+#: inc/template-tags.php:71 vc_templates/post_block/_item.php:21
+msgid "Read more"
+msgstr ""
+
+#: inc/template-tags.php:190
+msgid "Featured"
+msgstr ""
+
+#: inc/template-tags.php:197
+msgid "Posted by"
+msgstr ""
+
+#: inc/template-tags.php:199
+msgid "By"
+msgstr ""
+
+#: inc/template-tags.php:217
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/template-tags.php:217
+msgid "1 comment"
+msgstr ""
+
+#: inc/template-tags.php:217
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: inc/template-tags.php:222 inc/template-tags.php:263
+msgid "Edit"
+msgstr ""
+
+#: inc/template-tags.php:290
+msgid "Newer Posts &rarr;"
+msgstr ""
+
+#: inc/template-tags.php:296
+msgid "&larr; Older Posts"
+msgstr ""
+
+#: inc/template-tags.php:668
+msgid "Tag Archives: "
+msgstr ""
+
+#: inc/template-tags.php:677
+msgid "Daily Archives: "
+msgstr ""
+
+#: inc/template-tags.php:679
+msgid "Monthly Archives: "
+msgstr ""
+
+#: inc/template-tags.php:679
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: inc/template-tags.php:681
+msgid "Yearly Archives: "
+msgstr ""
+
+#: inc/template-tags.php:681
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/template-tags.php:683
+msgid "Archives"
+msgstr ""
+
+#: inc/template-tags.php:697
+msgid "Posts by "
+msgstr ""
+
+#: inc/template-tags.php:708
+msgid "Search Results for: "
+msgstr ""
+
+#: inc/template-tags.php:797
+msgid "Back"
+msgstr ""
+
+#: inc/template-tags.php:834
+msgid "Home"
+msgstr ""
+
+#: inc/template-tags.php:835
+#, php-format
+msgid "Archive by Category \"%s\""
+msgstr ""
+
+#: inc/template-tags.php:836
+#, php-format
+msgid "Search Results for \"%s\" Query"
+msgstr ""
+
+#: inc/template-tags.php:837
+#, php-format
+msgid "Posts Tagged \"%s\""
+msgstr ""
+
+#: inc/template-tags.php:838
+#, php-format
+msgid "Articles Posted by %s"
+msgstr ""
+
+#: inc/template-tags.php:839
+msgid "Error 404"
+msgstr ""
+
+#: inc/template-tags.php:982
+msgid "Page"
+msgstr ""
+
+#: inc/template-tags.php:1032
+msgid "Accept"
+msgstr ""
+
+#: inc/template-tags.php:1034
+msgid "More info"
+msgstr ""
+
+#: inc/template-tags.php:1120 inc/template-tags.php:1540
+msgid "Wishlist"
+msgstr ""
+
+#: inc/template-tags.php:1143
+msgid "Cart"
+msgstr ""
+
+#: inc/template-tags.php:1223 searchform.php:3
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: inc/template-tags.php:1224 searchform.php:4
+msgctxt "submit button"
+msgid "Search for products"
+msgstr ""
+
+#: inc/template-tags.php:1227 searchform.php:6
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: inc/template-tags.php:1250 inc/template-tags.php:1252
+msgid "Select category"
+msgstr ""
+
+#: inc/template-tags.php:1329
+#, php-format
+msgid "Feed for all posts filed under %s"
+msgstr ""
+
+#: inc/template-tags.php:1420
+msgid "Browse Categories"
+msgstr ""
+
+#: inc/template-tags.php:1455
+#, php-format
+msgid ""
+"Create your first <a href=\"%s\"><strong>navigation menu here</strong></a>"
+msgstr ""
+
+#: inc/template-tags.php:1557
+msgid "Login / Register"
+msgstr ""
+
+#: inc/theme-setup.php:68
+msgid "Main Menu"
+msgstr ""
+
+#: inc/theme-setup.php:69
+msgid "Mobile Side Menu"
+msgstr ""
+
+#: inc/theme-setup.php:70
+msgid "Top Bar Menu"
+msgstr ""
+
+#: inc/theme-setup.php:107
+msgid "Main Widget Area"
+msgstr ""
+
+#: inc/theme-setup.php:109
+msgid "Default Widget Area for posts and pages"
+msgstr ""
+
+#: inc/theme-setup.php:123
+msgid "Shop page Widget Area"
+msgstr ""
+
+#: inc/theme-setup.php:125
+msgid "Widget Area for shop pages"
+msgstr ""
+
+#: inc/theme-setup.php:137
+msgid "Widget Area for shop filters above the products"
+msgstr ""
+
+#: inc/theme-setup.php:147
+msgid "Single product page Widget Area"
+msgstr ""
+
+#: inc/theme-setup.php:149
+msgid "Widget Area for single product page"
+msgstr ""
+
+#: inc/theme-setup.php:159
+msgid "My Account pages sidebar"
+msgstr ""
+
+#: inc/theme-setup.php:161
+msgid "Widget Area for My Account, orders and other user pages."
+msgstr ""
+
+#: inc/theme-setup.php:173
+msgid "Widget Area in the header"
+msgstr ""
+
+#: inc/theme-setup.php:175
+msgid ""
+"Widget Area for some header types. Will be displayed if \"Text in the header"
+"\" field is empty in Theme Options"
+msgstr ""
+
+#: inc/theme-setup.php:349
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/theme-setup.php:350
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/theme-setup.php:351
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/theme-setup.php:352
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/theme-setup.php:353
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/theme-setup.php:354
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/theme-setup.php:355
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/theme-setup.php:356
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/theme-setup.php:357
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/theme-setup.php:358
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/theme-setup.php:359
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/theme-setup.php:360
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/theme-setup.php:361
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/theme-setup.php:362
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/theme-setup.php:363
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/theme-setup.php:364
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:394
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/theme-setup.php:365
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: inc/third-party/nav-menu-images/inc/admin.php:89
+msgid ""
+"You need to set an image as a featured image to be able to use it as an menu "
+"item image"
+msgstr ""
+
+#: inc/third-party/nav-menu-images/inc/admin.php:173
+#: inc/third-party/nav-menu-images/inc/walker.php:187
+#: inc/third-party/wph-widget-class.php:527
+msgid "Upload image"
+msgstr ""
+
+#: inc/third-party/nav-menu-images/inc/admin.php:180
+#: inc/third-party/nav-menu-images/inc/walker.php:178
+msgid "Change image"
+msgstr ""
+
+#: inc/third-party/nav-menu-images/inc/admin.php:182
+#: inc/third-party/nav-menu-images/inc/walker.php:183
+msgid "Remove image"
+msgstr ""
+
+#: inc/third-party/nav-menu-images/inc/admin.php:227
+msgid "Used on hover?"
+msgstr ""
+
+#: inc/third-party/nav-menu-images/inc/admin.php:231
+msgid "Should this image be used on hover"
+msgstr ""
+
+#: inc/third-party/nav-menu-images/inc/admin.php:241
+msgid "Used when active?"
+msgstr ""
+
+#: inc/third-party/nav-menu-images/inc/admin.php:245
+msgid "Should this image be used when menu item is active"
+msgstr ""
+
+#: inc/third-party/nav-menu-images/inc/walker.php:89
+msgid "Custom fields [for theme]"
+msgstr ""
+
+#: inc/third-party/nav-menu-images/inc/walker.php:92 inc/vc-config.php:725
+#: inc/vc-config.php:730 inc/vc-config.php:742 inc/vc-config.php:752
+#: inc/vc-config.php:762 inc/vc-config.php:772 inc/vc-config.php:782
+#: inc/vc-config.php:3325 inc/vc-config.php:3335 inc/vc-config.php:3344
+#: inc/vc-config.php:3354 inc/vc-config.php:3760
+msgid "Design"
+msgstr ""
+
+#: inc/third-party/nav-menu-images/inc/walker.php:96
+msgid "Set sizes"
+msgstr ""
+
+#: inc/third-party/nav-menu-images/inc/walker.php:102
+msgid "Dropdown Width"
+msgstr ""
+
+#: inc/third-party/nav-menu-images/inc/walker.php:108
+msgid "Dropdown Height"
+msgstr ""
+
+#: inc/third-party/nav-menu-images/inc/walker.php:114
+msgid "Icon name (from FontAwesome set)"
+msgstr ""
+
+#: inc/third-party/nav-menu-images/inc/walker.php:120
+msgid "Open on mouse event"
+msgstr ""
+
+#: inc/third-party/nav-menu-images/inc/walker.php:122
+msgid "Hover"
+msgstr ""
+
+#: inc/third-party/nav-menu-images/inc/walker.php:123
+msgid "Click"
+msgstr ""
+
+#: inc/third-party/nav-menu-images/inc/walker.php:129 inc/vc-config.php:1337
+msgid "Label"
+msgstr ""
+
+#: inc/third-party/nav-menu-images/inc/walker.php:140
+msgid "Dropdown text color scheme"
+msgstr ""
+
+#: inc/third-party/nav-menu-images/inc/walker.php:150
+msgid "One page anchor"
+msgstr ""
+
+#: inc/third-party/nav-menu-images/inc/walker.php:153
+#: inc/third-party/nav-menu-images/inc/walker.php:164 inc/vc-config.php:474
+msgid "Enable"
+msgstr ""
+
+#: inc/third-party/nav-menu-images/inc/walker.php:156
+msgid ""
+"Enable this to use one page navigation menu. If enabled you need to set the "
+"link for this item to be like this: http://your_site.com/home_page/"
+"#anchor_id where anchor_id will be the ID of the ROW on your home page."
+msgstr ""
+
+#: inc/third-party/nav-menu-images/inc/walker.php:161
+msgid "\"Call to action\" button"
+msgstr ""
+
+#: inc/third-party/options/ext/metaboxes/extension_metaboxes.php:904
+msgid "Options"
+msgstr ""
+
+#: inc/third-party/options/ext/metaboxes/extension_metaboxes.php:1054
+msgid "Settings Imported!"
+msgstr ""
+
+#: inc/third-party/options/ext/metaboxes/extension_metaboxes.php:1057
+msgid "Settings have changed, you should save them!"
+msgstr ""
+
+#: inc/third-party/options/ext/metaboxes/extension_metaboxes.php:1061
+#: inc/third-party/options/ext/metaboxes/extension_metaboxes.php:1343
+msgid "error(s) were found!"
+msgstr ""
+
+#: inc/third-party/options/ext/metaboxes/extension_metaboxes.php:1064
+#: inc/third-party/options/ext/metaboxes/extension_metaboxes.php:1348
+msgid "warning(s) were found!"
+msgstr ""
+
+#: inc/third-party/options/ext/metaboxes/extension_metaboxes.php:1068
+msgid "Expand"
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:393
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:912
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:2618
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:395
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:1019
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:1206
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:2427
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:2473
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:3594
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:3594
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/third-party/plugin-activation/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/vc-config.php:54
+msgid "Add poster to video"
+msgstr ""
+
+#: inc/vc-config.php:56 inc/vc-config.php:65 inc/vc-config.php:74
+#: inc/vc-config.php:144 inc/vc-config.php:175 inc/vc-config.php:196
+#: inc/vc-config.php:214 inc/vc-config.php:221 inc/vc-config.php:246
+#: inc/vc-config.php:254 inc/vc-config.php:262 inc/vc-config.php:270
+msgid "Basel Extras"
+msgstr ""
+
+#: inc/vc-config.php:57 inc/vc-config.php:197 inc/vc-config.php:215
+#: inc/vc-config.php:247 inc/vc-config.php:255 inc/vc-config.php:263
+#: inc/vc-config.php:271 inc/vc-config.php:1023 inc/vc-config.php:1134
+#: inc/vc-config.php:1566 inc/vc-config.php:1572 inc/vc-config.php:1663
+#: inc/vc-config.php:1687 inc/vc-config.php:1699 inc/vc-config.php:1711
+#: inc/vc-config.php:2004 inc/vc-config.php:2018 inc/vc-config.php:2025
+#: inc/vc-config.php:2032 inc/vc-config.php:2147 inc/vc-config.php:2158
+#: inc/vc-config.php:2169 inc/vc-config.php:2180 inc/vc-config.php:2241
+#: inc/vc-config.php:2253 inc/vc-config.php:2509 inc/vc-config.php:2516
+#: inc/vc-config.php:2573 inc/vc-config.php:2587 inc/vc-config.php:2594
+#: inc/vc-config.php:2601 inc/vc-config.php:2768 inc/vc-config.php:2779
+#: inc/vc-config.php:2790 inc/vc-config.php:2819 inc/vc-config.php:2965
+#: inc/vc-config.php:2972 inc/vc-config.php:2979 inc/vc-config.php:2986
+#: inc/vc-config.php:2993 inc/vc-config.php:3140 inc/vc-config.php:3388
+#: inc/vc-config.php:3400 inc/vc-config.php:3412 inc/vc-config.php:3424
+#: inc/vc-config.php:3436 inc/vc-config.php:3705 inc/vc-config.php:3803
+#: inc/vc-config.php:3810
+msgid "Yes, please"
+msgstr ""
+
+#: inc/vc-config.php:61 inc/vc-config.php:2296 inc/vc-config.php:2395
+#: inc/vc-config.php:3570 inc/vc-config.php:3626
+msgid "Image"
+msgstr ""
+
+#: inc/vc-config.php:64 inc/vc-config.php:364 inc/vc-config.php:1398
+#: inc/vc-config.php:1757 inc/vc-config.php:2398 inc/vc-config.php:3063
+#: inc/vc-config.php:3573 inc/vc-config.php:3629
+msgid "Select image from media library."
+msgstr ""
+
+#: inc/vc-config.php:73 inc/vc-config.php:368 inc/vc-config.php:1402
+#: inc/vc-config.php:1761 inc/vc-config.php:2104 inc/vc-config.php:2402
+#: inc/vc-config.php:3577 inc/vc-config.php:3633
+msgid "Image size"
+msgstr ""
+
+#: inc/vc-config.php:76
+msgid ""
+"Enter image size. Example: \"thumbnail\", \"medium\", \"large\", \"full\" or "
+"other sizes defined by current theme. Alternatively enter image size in "
+"pixels: 200x100 (Width x Height). Leave empty to use \"full\" size."
+msgstr ""
+
+#: inc/vc-config.php:95 inc/vc-config.php:990
+msgid "Primary color"
+msgstr ""
+
+#: inc/vc-config.php:96 inc/vc-config.php:991
+msgid "Alternative color"
+msgstr ""
+
+#: inc/vc-config.php:97 inc/vc-config.php:992
+msgid "Black"
+msgstr ""
+
+#: inc/vc-config.php:98 inc/vc-config.php:993
+msgid "White"
+msgstr ""
+
+#: inc/vc-config.php:100
+msgid "Gradient"
+msgstr ""
+
+#: inc/vc-config.php:115
+msgid "Gradient title color"
+msgstr ""
+
+#: inc/vc-config.php:142
+msgid "Background position"
+msgstr ""
+
+#: inc/vc-config.php:147
+msgid "Left top"
+msgstr ""
+
+#: inc/vc-config.php:148
+msgid "Left center"
+msgstr ""
+
+#: inc/vc-config.php:149
+msgid "Left bottom"
+msgstr ""
+
+#: inc/vc-config.php:150
+msgid "Right top"
+msgstr ""
+
+#: inc/vc-config.php:151
+msgid "Right center"
+msgstr ""
+
+#: inc/vc-config.php:152
+msgid "Right bottom"
+msgstr ""
+
+#: inc/vc-config.php:153
+msgid "Center top"
+msgstr ""
+
+#: inc/vc-config.php:154
+msgid "Center center"
+msgstr ""
+
+#: inc/vc-config.php:155
+msgid "Center bottom"
+msgstr ""
+
+#: inc/vc-config.php:173
+msgid "Text align"
+msgstr ""
+
+#: inc/vc-config.php:177
+msgid "Choose"
+msgstr ""
+
+#: inc/vc-config.php:194
+msgid "Basel parallax"
+msgstr ""
+
+#: inc/vc-config.php:212
+msgid "Basel gradient"
+msgstr ""
+
+#: inc/vc-config.php:244
+msgid "Hide on large screens"
+msgstr ""
+
+#: inc/vc-config.php:252
+msgid "Hide on medium screens"
+msgstr ""
+
+#: inc/vc-config.php:260
+msgid "Hide on small screens"
+msgstr ""
+
+#: inc/vc-config.php:268
+msgid "Hide on extra small screens"
+msgstr ""
+
+#: inc/vc-config.php:281
+msgid "Same window"
+msgstr ""
+
+#: inc/vc-config.php:282
+msgid "New window"
+msgstr ""
+
+#: inc/vc-config.php:288 inc/vc-config.php:3207
+msgid "List of IDs"
+msgstr ""
+
+#: inc/vc-config.php:297
+msgid "Timeline"
+msgstr ""
+
+#: inc/vc-config.php:302 inc/vc-config.php:336 inc/vc-config.php:414
+#: inc/vc-config.php:457 inc/vc-config.php:526 inc/vc-config.php:627
+#: inc/vc-config.php:901 inc/vc-config.php:964 inc/vc-config.php:1077
+#: inc/vc-config.php:1197 inc/vc-config.php:1292 inc/vc-config.php:1332
+#: inc/vc-config.php:1375 inc/vc-config.php:1509 inc/vc-config.php:1594
+#: inc/vc-config.php:1734 inc/vc-config.php:1792 inc/vc-config.php:1812
+#: inc/vc-config.php:1936 inc/vc-config.php:1953 inc/vc-config.php:1969
+#: inc/vc-config.php:1986 inc/vc-config.php:2055 inc/vc-config.php:2091
+#: inc/vc-config.php:2275 inc/vc-config.php:2327 inc/vc-config.php:2389
+#: inc/vc-config.php:2545 inc/vc-config.php:2690 inc/vc-config.php:2918
+#: inc/vc-config.php:3049 inc/vc-config.php:3091 inc/vc-config.php:3174
+msgid "Theme elements"
+msgstr ""
+
+#: inc/vc-config.php:307
+msgid "Color of line"
+msgstr ""
+
+#: inc/vc-config.php:312
+msgid "Color of dots"
+msgstr ""
+
+#: inc/vc-config.php:317 inc/vc-config.php:396 inc/vc-config.php:432
+#: inc/vc-config.php:510 inc/vc-config.php:606 inc/vc-config.php:947
+#: inc/vc-config.php:1042 inc/vc-config.php:1181 inc/vc-config.php:1275
+#: inc/vc-config.php:1315 inc/vc-config.php:1358 inc/vc-config.php:1490
+#: inc/vc-config.php:1576 inc/vc-config.php:1720 inc/vc-config.php:1773
+#: inc/vc-config.php:1798 inc/vc-config.php:1915 inc/vc-config.php:2036
+#: inc/vc-config.php:2073 inc/vc-config.php:2258 inc/vc-config.php:2309
+#: inc/vc-config.php:2372 inc/vc-config.php:2527 inc/vc-config.php:2605
+#: inc/vc-config.php:2641 inc/vc-config.php:2652 inc/vc-config.php:3004
+#: inc/vc-config.php:3072 inc/vc-config.php:3157 inc/vc-config.php:3612
+#: inc/vc-config.php:3709
+msgid "Extra class name"
+msgstr ""
+
+#: inc/vc-config.php:319 inc/vc-config.php:398 inc/vc-config.php:434
+#: inc/vc-config.php:512 inc/vc-config.php:608 inc/vc-config.php:949
+#: inc/vc-config.php:1044 inc/vc-config.php:1183 inc/vc-config.php:1277
+#: inc/vc-config.php:1317 inc/vc-config.php:1360 inc/vc-config.php:1492
+#: inc/vc-config.php:1578 inc/vc-config.php:1722 inc/vc-config.php:1775
+#: inc/vc-config.php:1800 inc/vc-config.php:1917 inc/vc-config.php:2038
+#: inc/vc-config.php:2075 inc/vc-config.php:2260 inc/vc-config.php:2311
+#: inc/vc-config.php:2374 inc/vc-config.php:2529 inc/vc-config.php:2607
+#: inc/vc-config.php:2643 inc/vc-config.php:2654 inc/vc-config.php:3006
+#: inc/vc-config.php:3074 inc/vc-config.php:3159 inc/vc-config.php:3614
+#: inc/vc-config.php:3711
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: inc/vc-config.php:332
+msgid "Timeline item"
+msgstr ""
+
+#: inc/vc-config.php:342
+msgid "Title Primary"
+msgstr ""
+
+#: inc/vc-config.php:344
+msgid "Provide the title for primary timeline item."
+msgstr ""
+
+#: inc/vc-config.php:348
+msgid "Content Primary"
+msgstr ""
+
+#: inc/vc-config.php:350
+msgid "Provide the description for primary timeline item."
+msgstr ""
+
+#: inc/vc-config.php:355
+msgid "Title Secondary"
+msgstr ""
+
+#: inc/vc-config.php:357
+msgid "Provide the title for secondary timeline item."
+msgstr ""
+
+#: inc/vc-config.php:361
+msgid "Image Secondary"
+msgstr ""
+
+#: inc/vc-config.php:370 inc/vc-config.php:732 inc/vc-config.php:1404
+#: inc/vc-config.php:1763 inc/vc-config.php:2106 inc/vc-config.php:2404
+#: inc/vc-config.php:2942 inc/vc-config.php:3346 inc/vc-config.php:3579
+#: inc/vc-config.php:3635
+msgid ""
+"Enter image size. Example: \"thumbnail\", \"medium\", \"large\", \"full\" or "
+"other sizes defined by current theme. Alternatively enter image size in "
+"pixels: 200x100 (Width x Height). Leave empty to use \"thumbnail\" size."
+msgstr ""
+
+#: inc/vc-config.php:374
+msgid "Content Secondary"
+msgstr ""
+
+#: inc/vc-config.php:376
+msgid "Provide the description for secondary timeline item."
+msgstr ""
+
+#: inc/vc-config.php:381 inc/vc-config.php:427
+msgid "Background color "
+msgstr ""
+
+#: inc/vc-config.php:386 inc/vc-config.php:463
+msgid "Position"
+msgstr ""
+
+#: inc/vc-config.php:410
+msgid "Timeline breakpoint"
+msgstr ""
+
+#: inc/vc-config.php:420 inc/vc-config.php:533 inc/vc-config.php:797
+#: inc/vc-config.php:970 inc/vc-config.php:1061 inc/vc-config.php:1083
+#: inc/vc-config.php:1222 inc/vc-config.php:1298 inc/vc-config.php:1388
+#: inc/vc-config.php:1515 inc/vc-config.php:1600 inc/vc-config.php:1747
+#: inc/vc-config.php:2061 inc/vc-config.php:2281 inc/vc-config.php:2672
+#: inc/vc-config.php:2696 inc/vc-config.php:2895 inc/vc-config.php:3055
+#: inc/vc-config.php:3452 inc/vc-config.php:3553 inc/vc-config.php:3565
+#: inc/vc-config.php:3722 inc/widgets/class-widget-layered-nav.php:39
+#: inc/widgets/class-widget-price-filter.php:32
+#: inc/widgets/class-widget-search.php:30
+#: inc/widgets/class-widget-sorting.php:30
+msgid "Title"
+msgstr ""
+
+#: inc/vc-config.php:422
+msgid "Provide the title for this timeline item."
+msgstr ""
+
+#: inc/vc-config.php:455
+msgid "Section divider"
+msgstr ""
+
+#: inc/vc-config.php:458
+msgid "Divider for sections"
+msgstr ""
+
+#: inc/vc-config.php:466 inc/vc-config.php:2489 inc/vc-config.php:3666
+msgid "Top"
+msgstr ""
+
+#: inc/vc-config.php:467 inc/vc-config.php:3668
+msgid "Bottom"
+msgstr ""
+
+#: inc/vc-config.php:472
+msgid "Overlap"
+msgstr ""
+
+#: inc/vc-config.php:478
+msgid "Color"
+msgstr ""
+
+#: inc/vc-config.php:483 inc/vc-config.php:715 inc/vc-config.php:1093
+#: inc/vc-config.php:1615 inc/vc-config.php:2362
+msgid "Style"
+msgstr ""
+
+#: inc/vc-config.php:486
+msgid "Waves Small"
+msgstr ""
+
+#: inc/vc-config.php:487
+msgid "Waves Wide"
+msgstr ""
+
+#: inc/vc-config.php:488
+msgid "Curved Line"
+msgstr ""
+
+#: inc/vc-config.php:489
+msgid "Triangle"
+msgstr ""
+
+#: inc/vc-config.php:490
+msgid "Clouds"
+msgstr ""
+
+#: inc/vc-config.php:491
+msgid "Diagonal Right"
+msgstr ""
+
+#: inc/vc-config.php:492
+msgid "Diagonal Left"
+msgstr ""
+
+#: inc/vc-config.php:493
+msgid "Half Circle"
+msgstr ""
+
+#: inc/vc-config.php:494
+msgid "Paint Stroke"
+msgstr ""
+
+#: inc/vc-config.php:499
+msgid "Custom height"
+msgstr ""
+
+#: inc/vc-config.php:505
+msgid "Enter divider height (Note: CSS measurement units allowed)."
+msgstr ""
+
+#: inc/vc-config.php:524
+msgid "Section title"
+msgstr ""
+
+#: inc/vc-config.php:527
+msgid "Styled title for sections"
+msgstr ""
+
+#: inc/vc-config.php:538
+msgid "Sub title"
+msgstr ""
+
+#: inc/vc-config.php:543
+msgid "Text after title"
+msgstr ""
+
+#: inc/vc-config.php:548
+msgid "Title style"
+msgstr ""
+
+#: inc/vc-config.php:552
+msgid "Simple"
+msgstr ""
+
+#: inc/vc-config.php:553
+msgid "X sign"
+msgstr ""
+
+#: inc/vc-config.php:554 inc/vc-config.php:1002 inc/vc-config.php:2500
+#: inc/vc-config.php:3678
+msgid "Bordered"
+msgstr ""
+
+#: inc/vc-config.php:555 inc/vc-config.php:2501
+msgid "Shadow"
+msgstr ""
+
+#: inc/vc-config.php:560
+msgid "Title color"
+msgstr ""
+
+#: inc/vc-config.php:566
+msgid "Title tag"
+msgstr ""
+
+#: inc/vc-config.php:576
+msgid "Title size"
+msgstr ""
+
+#: inc/vc-config.php:582 inc/vc-config.php:1016
+msgid "Extra Large"
+msgstr ""
+
+#: inc/vc-config.php:587
+msgid "Subtitle font"
+msgstr ""
+
+#: inc/vc-config.php:596
+msgid "Title align"
+msgstr ""
+
+#: inc/vc-config.php:612 inc/vc-config.php:2521
+msgid "CSS box"
+msgstr ""
+
+#: inc/vc-config.php:614 inc/vc-config.php:2523
+msgid "Design Options"
+msgstr ""
+
+#: inc/vc-config.php:628
+msgid "Show your blog posts on the page"
+msgstr ""
+
+#: inc/vc-config.php:633 inc/vc-config.php:3199
+msgid "Data source"
+msgstr ""
+
+#: inc/vc-config.php:636 inc/vc-config.php:3210
+msgid "Select content type for your grid."
+msgstr ""
+
+#: inc/vc-config.php:640 inc/vc-config.php:3214
+msgid "Include only"
+msgstr ""
+
+#: inc/vc-config.php:642
+msgid "Add posts, pages, etc. by title."
+msgstr ""
+
+#: inc/vc-config.php:657 inc/vc-config.php:3231
+msgid "Custom query"
+msgstr ""
+
+#: inc/vc-config.php:659 inc/vc-config.php:3233
+msgid ""
+"Build custom query according to <a href=\"http://codex.wordpress.org/"
+"Function_Reference/query_posts\">WordPress Codex</a>."
+msgstr ""
+
+#: inc/vc-config.php:667
+msgid "Narrow data source"
+msgstr ""
+
+#: inc/vc-config.php:689 inc/vc-config.php:3262
+msgid "Enter categories, tags or custom taxonomies."
+msgstr ""
+
+#: inc/vc-config.php:699 inc/vc-config.php:3272
+msgid "Number of items to show per page."
+msgstr ""
+
+#: inc/vc-config.php:724
+msgid "You can use different design for your blog styled for the theme"
+msgstr ""
+
+#: inc/vc-config.php:729 inc/vc-config.php:2940 inc/vc-config.php:3343
+msgid "Images size"
+msgstr ""
+
+#: inc/vc-config.php:736 inc/vc-config.php:1108 inc/vc-config.php:1634
+#: inc/vc-config.php:2198 inc/vc-config.php:2798 inc/vc-config.php:3329
+#: inc/vc-config.php:3334
+msgid "Columns"
+msgstr ""
+
+#: inc/vc-config.php:750
+msgid "Title for posts"
+msgstr ""
+
+#: inc/vc-config.php:760
+msgid "Meta information"
+msgstr ""
+
+#: inc/vc-config.php:770
+msgid "Post text"
+msgstr ""
+
+#: inc/vc-config.php:780
+msgid "Read more button"
+msgstr ""
+
+#: inc/vc-config.php:791 inc/vc-config.php:1153 inc/vc-config.php:1544
+#: inc/vc-config.php:2707 inc/vc-config.php:3446
+msgid "Order by"
+msgstr ""
+
+#: inc/vc-config.php:794 inc/vc-config.php:1058 inc/vc-config.php:1547
+#: inc/vc-config.php:2333 inc/vc-config.php:2669 inc/vc-config.php:3449
+msgid "Date"
+msgstr ""
+
+#: inc/vc-config.php:795 inc/vc-config.php:3450
+msgid "Order by post ID"
+msgstr ""
+
+#: inc/vc-config.php:796 inc/vc-config.php:2671 inc/vc-config.php:3451
+msgid "Author"
+msgstr ""
+
+#: inc/vc-config.php:798 inc/vc-config.php:3453
+msgid "Last modified date"
+msgstr ""
+
+#: inc/vc-config.php:799
+msgid "Post/page parent ID"
+msgstr ""
+
+#: inc/vc-config.php:800 inc/vc-config.php:3454
+msgid "Number of comments"
+msgstr ""
+
+#: inc/vc-config.php:801 inc/vc-config.php:3455
+msgid "Menu order/Page Order"
+msgstr ""
+
+#: inc/vc-config.php:802 inc/vc-config.php:3456
+msgid "Meta value"
+msgstr ""
+
+#: inc/vc-config.php:803 inc/vc-config.php:3457
+msgid "Meta value number"
+msgstr ""
+
+#: inc/vc-config.php:805 inc/vc-config.php:3459
+msgid "Random order"
+msgstr ""
+
+#: inc/vc-config.php:807 inc/vc-config.php:3462
+msgid ""
+"Select order type. If \"Meta value\" or \"Meta value Number\" is chosen then "
+"meta key is required."
+msgstr ""
+
+#: inc/vc-config.php:808 inc/vc-config.php:819 inc/vc-config.php:836
+#: inc/vc-config.php:848 inc/vc-config.php:860 inc/vc-config.php:3463
+#: inc/vc-config.php:3474 inc/vc-config.php:3491 inc/vc-config.php:3503
+#: inc/vc-config.php:3515
+msgid "Data Settings"
+msgstr ""
+
+#: inc/vc-config.php:817 inc/vc-config.php:3472
+msgid "Sorting"
+msgstr ""
+
+#: inc/vc-config.php:821 inc/vc-config.php:1070 inc/vc-config.php:2682
+#: inc/vc-config.php:3476
+msgid "Descending"
+msgstr ""
+
+#: inc/vc-config.php:822 inc/vc-config.php:1071 inc/vc-config.php:2683
+#: inc/vc-config.php:3477
+msgid "Ascending"
+msgstr ""
+
+#: inc/vc-config.php:825 inc/vc-config.php:3480
+msgid "Select sorting order."
+msgstr ""
+
+#: inc/vc-config.php:833 inc/vc-config.php:3488
+msgid "Meta key"
+msgstr ""
+
+#: inc/vc-config.php:835 inc/vc-config.php:3490
+msgid "Input meta key for grid ordering."
+msgstr ""
+
+#: inc/vc-config.php:845 inc/vc-config.php:3500
+msgid "Offset"
+msgstr ""
+
+#: inc/vc-config.php:847 inc/vc-config.php:3502
+msgid "Number of grid elements to displace or pass over."
+msgstr ""
+
+#: inc/vc-config.php:857 inc/vc-config.php:3512
+msgid "Exclude"
+msgstr ""
+
+#: inc/vc-config.php:859 inc/vc-config.php:3514
+msgid "Exclude posts, pages, etc. by title."
+msgstr ""
+
+#: inc/vc-config.php:899
+msgid "Social buttons"
+msgstr ""
+
+#: inc/vc-config.php:902
+msgid "Follow or share buttons"
+msgstr ""
+
+#: inc/vc-config.php:907
+msgid "Buttons type"
+msgstr ""
+
+#: inc/vc-config.php:916
+msgid "Buttons size"
+msgstr ""
+
+#: inc/vc-config.php:926
+msgid "Buttons style"
+msgstr ""
+
+#: inc/vc-config.php:930 inc/vc-config.php:1483
+msgid "Circle buttons"
+msgstr ""
+
+#: inc/vc-config.php:931 inc/vc-config.php:1484
+msgid "Colored"
+msgstr ""
+
+#: inc/vc-config.php:932 inc/vc-config.php:1485
+msgid "Colored alternative"
+msgstr ""
+
+#: inc/vc-config.php:937 inc/vc-config.php:1027 inc/vc-config.php:1408
+#: inc/vc-config.php:1624 inc/vc-config.php:2351
+msgid "Align"
+msgstr ""
+
+#: inc/vc-config.php:940 inc/vc-config.php:1032 inc/vc-config.php:2356
+msgid "center"
+msgstr ""
+
+#: inc/vc-config.php:941 inc/vc-config.php:1031 inc/vc-config.php:2355
+msgid "left"
+msgstr ""
+
+#: inc/vc-config.php:942 inc/vc-config.php:1033 inc/vc-config.php:2357
+msgid "right"
+msgstr ""
+
+#: inc/vc-config.php:962
+msgid "Button"
+msgstr ""
+
+#: inc/vc-config.php:965
+msgid "Simple button in different theme styles"
+msgstr ""
+
+#: inc/vc-config.php:975 inc/vc-config.php:2303 inc/vc-config.php:2408
+msgid "Link"
+msgstr ""
+
+#: inc/vc-config.php:977 inc/vc-config.php:1868 inc/vc-config.php:2305
+#: inc/vc-config.php:2410
+msgid "Enter URL if you want this box to have a link."
+msgstr ""
+
+#: inc/vc-config.php:981
+msgid "Link (Deprecated)"
+msgstr ""
+
+#: inc/vc-config.php:986
+msgid "Button color"
+msgstr ""
+
+#: inc/vc-config.php:998 inc/vc-config.php:2425
+msgid "Button style"
+msgstr ""
+
+#: inc/vc-config.php:1003
+msgid "Link button"
+msgstr ""
+
+#: inc/vc-config.php:1009
+msgid "Button size"
+msgstr ""
+
+#: inc/vc-config.php:1013
+msgid "Extra Small"
+msgstr ""
+
+#: inc/vc-config.php:1021
+msgid "Button inline"
+msgstr ""
+
+#: inc/vc-config.php:1059 inc/vc-config.php:2670
+msgid "ID"
+msgstr ""
+
+#: inc/vc-config.php:1062 inc/vc-config.php:2673
+msgid "Modified"
+msgstr ""
+
+#: inc/vc-config.php:1078
+msgid "Showcase your projects or gallery"
+msgstr ""
+
+#: inc/vc-config.php:1088
+msgid "Number of posts per page"
+msgstr ""
+
+#: inc/vc-config.php:1096
+msgid "Inherit from theme settings"
+msgstr ""
+
+#: inc/vc-config.php:1141
+msgid "Filters background"
+msgstr ""
+
+#: inc/vc-config.php:1157
+#, php-format
+msgid "Select how to sort retrieved projects. More at %s."
+msgstr ""
+
+#: inc/vc-config.php:1161 inc/vc-config.php:2715
+msgid "Sort order"
+msgstr ""
+
+#: inc/vc-config.php:1165 inc/vc-config.php:2719
+#, php-format
+msgid "Designates the ascending or descending order. More at %s."
+msgstr ""
+
+#: inc/vc-config.php:1195
+msgid "Google Map"
+msgstr ""
+
+#: inc/vc-config.php:1205
+msgid "Latitude (required)"
+msgstr ""
+
+#: inc/vc-config.php:1211
+msgid "Longitude (required)"
+msgstr ""
+
+#: inc/vc-config.php:1216
+msgid "Google API key (required)"
+msgstr ""
+
+#: inc/vc-config.php:1227
+msgid "Text on marker"
+msgstr ""
+
+#: inc/vc-config.php:1238
+msgid "Height"
+msgstr ""
+
+#: inc/vc-config.php:1244
+msgid "Styles (JSON)"
+msgstr ""
+
+#: inc/vc-config.php:1255
+msgid "Zoom with mouse wheel"
+msgstr ""
+
+#: inc/vc-config.php:1259
+msgid "Yes"
+msgstr ""
+
+#: inc/vc-config.php:1260
+msgid "No"
+msgstr ""
+
+#: inc/vc-config.php:1265
+msgid "Map mask"
+msgstr ""
+
+#: inc/vc-config.php:1290
+msgid "Mega Menu widget"
+msgstr ""
+
+#: inc/vc-config.php:1293 inc/vc-config.php:1510
+msgid "Categories mega menu widget"
+msgstr ""
+
+#: inc/vc-config.php:1303
+msgid "Choose Menu"
+msgstr ""
+
+#: inc/vc-config.php:1309
+msgid "Title Color"
+msgstr ""
+
+#: inc/vc-config.php:1330
+msgid "Animated Counter"
+msgstr ""
+
+#: inc/vc-config.php:1342
+msgid "Actual value"
+msgstr ""
+
+#: inc/vc-config.php:1344
+msgid "Our final point. For ex.: 95"
+msgstr ""
+
+#: inc/vc-config.php:1348 inc/vc-config.php:2340
+msgid "Size"
+msgstr ""
+
+#: inc/vc-config.php:1373
+msgid "Team Member"
+msgstr ""
+
+#: inc/vc-config.php:1376
+msgid "Display information about some person"
+msgstr ""
+
+#: inc/vc-config.php:1381 inc/vc-config.php:1740 inc/vc-config.php:2860
+msgid "Name"
+msgstr ""
+
+#: inc/vc-config.php:1384 inc/vc-config.php:1743
+msgid "User name"
+msgstr ""
+
+#: inc/vc-config.php:1391 inc/vc-config.php:1750
+msgid "User title"
+msgstr ""
+
+#: inc/vc-config.php:1395 inc/vc-config.php:1754
+msgid "User Avatar"
+msgstr ""
+
+#: inc/vc-config.php:1419 inc/vc-config.php:1768
+msgid "Text"
+msgstr ""
+
+#: inc/vc-config.php:1421
+msgid "You can add some member bio here."
+msgstr ""
+
+#: inc/vc-config.php:1440
+msgid "Google+ link"
+msgstr ""
+
+#: inc/vc-config.php:1445
+msgid "Linkedin link"
+msgstr ""
+
+#: inc/vc-config.php:1450
+msgid "Skype link"
+msgstr ""
+
+#: inc/vc-config.php:1455
+msgid "Instagram link"
+msgstr ""
+
+#: inc/vc-config.php:1460
+msgid "Social buttons size"
+msgstr ""
+
+#: inc/vc-config.php:1470 inc/vc-config.php:1606 inc/vc-config.php:2723
+msgid "Layout"
+msgstr ""
+
+#: inc/vc-config.php:1474
+msgid "With hover"
+msgstr ""
+
+#: inc/vc-config.php:1479
+msgid "Social buttons style"
+msgstr ""
+
+#: inc/vc-config.php:1507
+msgid "WC products widget"
+msgstr ""
+
+#: inc/vc-config.php:1520 inc/widgets/class-widget-search.php:36
+msgid "Number of products to show"
+msgstr ""
+
+#: inc/vc-config.php:1534
+msgid "Show"
+msgstr ""
+
+#: inc/vc-config.php:1537 inc/vc-config.php:3202
+msgid "All Products"
+msgstr ""
+
+#: inc/vc-config.php:1538 inc/vc-config.php:3203
+msgid "Featured Products"
+msgstr ""
+
+#: inc/vc-config.php:1539
+msgid "On-sale Products"
+msgstr ""
+
+#: inc/vc-config.php:1548 inc/vc-config.php:2291 inc/vc-config.php:3460
+#: woocommerce/cart/cart.php:37 woocommerce/cart/cart.php:97
+msgid "Price"
+msgstr ""
+
+#: inc/vc-config.php:1549
+msgid "Random"
+msgstr ""
+
+#: inc/vc-config.php:1550
+msgid "Sales"
+msgstr ""
+
+#: inc/vc-config.php:1555
+msgid "Order"
+msgstr ""
+
+#: inc/vc-config.php:1558
+msgid "ASC"
+msgstr ""
+
+#: inc/vc-config.php:1559
+msgid "DESC"
+msgstr ""
+
+#: inc/vc-config.php:1564
+msgid "Hide free products"
+msgstr ""
+
+#: inc/vc-config.php:1570
+msgid "Show hidden products"
+msgstr ""
+
+#: inc/vc-config.php:1589
+msgid "Testimonials"
+msgstr ""
+
+#: inc/vc-config.php:1595
+msgid "User testimonials slider or grid"
+msgstr ""
+
+#: inc/vc-config.php:1609 inc/vc-config.php:3766
+msgid "Slider"
+msgstr ""
+
+#: inc/vc-config.php:1618 inc/vc-config.php:2366
+msgid "Standard"
+msgstr ""
+
+#: inc/vc-config.php:1646 inc/vc-config.php:1992 inc/vc-config.php:2131
+#: inc/vc-config.php:2551 inc/vc-config.php:2752 inc/vc-config.php:2953
+#: inc/vc-config.php:3371
+msgid "Slides per view"
+msgstr ""
+
+#: inc/vc-config.php:1656 inc/vc-config.php:1997 inc/vc-config.php:2140
+#: inc/vc-config.php:2556 inc/vc-config.php:2761
+msgid ""
+"Set numbers of slides you want to display at the same time on slider's "
+"container for carousel mode."
+msgstr ""
+
+#: inc/vc-config.php:1660 inc/vc-config.php:2001 inc/vc-config.php:2177
+#: inc/vc-config.php:2570 inc/vc-config.php:2969 inc/vc-config.php:3397
+msgid "Slider autoplay"
+msgstr ""
+
+#: inc/vc-config.php:1662 inc/vc-config.php:2003 inc/vc-config.php:2179
+#: inc/vc-config.php:2572 inc/vc-config.php:2971 inc/vc-config.php:3399
+msgid "Enables autoplay mode."
+msgstr ""
+
+#: inc/vc-config.php:1672 inc/vc-config.php:2008 inc/vc-config.php:2577
+#: inc/vc-config.php:2946 inc/vc-config.php:3359
+msgid "Slider speed"
+msgstr ""
+
+#: inc/vc-config.php:1675 inc/vc-config.php:2011 inc/vc-config.php:2580
+#: inc/vc-config.php:2949 inc/vc-config.php:3362
+msgid "Duration of animation between slides (in ms)"
+msgstr ""
+
+#: inc/vc-config.php:1684 inc/vc-config.php:2015 inc/vc-config.php:2144
+#: inc/vc-config.php:2584 inc/vc-config.php:2765 inc/vc-config.php:2976
+#: inc/vc-config.php:3409
+msgid "Hide pagination control"
+msgstr ""
+
+#: inc/vc-config.php:1686 inc/vc-config.php:2017 inc/vc-config.php:2146
+#: inc/vc-config.php:2586 inc/vc-config.php:2767 inc/vc-config.php:2978
+#: inc/vc-config.php:3411
+msgid "If \"YES\" pagination control will be removed"
+msgstr ""
+
+#: inc/vc-config.php:1696 inc/vc-config.php:2022 inc/vc-config.php:2155
+#: inc/vc-config.php:2591 inc/vc-config.php:2776 inc/vc-config.php:2983
+#: inc/vc-config.php:3421
+msgid "Hide prev/next buttons"
+msgstr ""
+
+#: inc/vc-config.php:1698 inc/vc-config.php:2024 inc/vc-config.php:2157
+#: inc/vc-config.php:2593 inc/vc-config.php:2778 inc/vc-config.php:2985
+#: inc/vc-config.php:3423
+msgid "If \"YES\" prev/next control will be removed"
+msgstr ""
+
+#: inc/vc-config.php:1708 inc/vc-config.php:2029 inc/vc-config.php:2166
+#: inc/vc-config.php:2598 inc/vc-config.php:2787 inc/vc-config.php:2990
+#: inc/vc-config.php:3433
+msgid "Slider loop"
+msgstr ""
+
+#: inc/vc-config.php:1710 inc/vc-config.php:2031 inc/vc-config.php:2168
+#: inc/vc-config.php:2600 inc/vc-config.php:2789 inc/vc-config.php:2992
+#: inc/vc-config.php:3435
+msgid "Enables loop mode."
+msgstr ""
+
+#: inc/vc-config.php:1729
+msgid "Testimonial"
+msgstr ""
+
+#: inc/vc-config.php:1735
+msgid "User testimonial"
+msgstr ""
+
+#: inc/vc-config.php:1787
+msgid "Pricing tables"
+msgstr ""
+
+#: inc/vc-config.php:1793
+msgid "Show your pricing plans"
+msgstr ""
+
+#: inc/vc-config.php:1807
+msgid "Price plan"
+msgstr ""
+
+#: inc/vc-config.php:1813
+msgid "Price option"
+msgstr ""
+
+#: inc/vc-config.php:1818
+msgid "Pricing plan name"
+msgstr ""
+
+#: inc/vc-config.php:1824
+msgid "Subtitle"
+msgstr ""
+
+#: inc/vc-config.php:1830
+msgid "Price value"
+msgstr ""
+
+#: inc/vc-config.php:1836
+msgid "Price suffix"
+msgstr ""
+
+#: inc/vc-config.php:1839
+msgid "For example: per month"
+msgstr ""
+
+#: inc/vc-config.php:1843
+msgid "Price currency"
+msgstr ""
+
+#: inc/vc-config.php:1846
+msgid "For example: $"
+msgstr ""
+
+#: inc/vc-config.php:1850
+msgid "Featured list"
+msgstr ""
+
+#: inc/vc-config.php:1852
+msgid "Start each feature text from a new line"
+msgstr ""
+
+#: inc/vc-config.php:1856
+msgid "Button type"
+msgstr ""
+
+#: inc/vc-config.php:1859
+msgid "Custom"
+msgstr ""
+
+#: inc/vc-config.php:1860
+msgid "Product \"add to cart\""
+msgstr ""
+
+#: inc/vc-config.php:1862
+msgid ""
+"Set your custom link for button or allow users to add some product to cart"
+msgstr ""
+
+#: inc/vc-config.php:1866
+msgid "Button link"
+msgstr ""
+
+#: inc/vc-config.php:1876
+msgid "Button label"
+msgstr ""
+
+#: inc/vc-config.php:1886
+msgid "Select identificator"
+msgstr ""
+
+#: inc/vc-config.php:1888
+msgid "Input product ID or product SKU or product title to see suggestions"
+msgstr ""
+
+#: inc/vc-config.php:1896
+msgid "Label text"
+msgstr ""
+
+#: inc/vc-config.php:1899
+msgid "For example: Best option!"
+msgstr ""
+
+#: inc/vc-config.php:1903
+msgid "Label color"
+msgstr ""
+
+#: inc/vc-config.php:1907
+msgid "Red"
+msgstr ""
+
+#: inc/vc-config.php:1908
+msgid "Green"
+msgstr ""
+
+#: inc/vc-config.php:1909
+msgid "Blue"
+msgstr ""
+
+#: inc/vc-config.php:1910
+msgid "Yellow"
+msgstr ""
+
+#: inc/vc-config.php:1937 inc/widgets/class-instagram-widget.php:19
+msgid "Instagram photos"
+msgstr ""
+
+#: inc/vc-config.php:1950
+msgid "Author area"
+msgstr ""
+
+#: inc/vc-config.php:1954
+msgid "Widget for author information"
+msgstr ""
+
+#: inc/vc-config.php:1966
+msgid "Promo Banner"
+msgstr ""
+
+#: inc/vc-config.php:1970
+msgid "Promo image with text and hover effect"
+msgstr ""
+
+#: inc/vc-config.php:1981
+msgid "Banners carousel"
+msgstr ""
+
+#: inc/vc-config.php:1987 inc/vc-config.php:2546
+msgid "Show your banners as a carousel"
+msgstr ""
+
+#: inc/vc-config.php:2052
+msgid "360 degree view"
+msgstr ""
+
+#: inc/vc-config.php:2056
+msgid "Showcase your product as 3D model"
+msgstr ""
+
+#: inc/vc-config.php:2066 inc/vc-config.php:2097
+msgid "Images"
+msgstr ""
+
+#: inc/vc-config.php:2069 inc/vc-config.php:2100 inc/vc-config.php:2299
+msgid "Select images from media library."
+msgstr ""
+
+#: inc/vc-config.php:2088
+msgid "Images gallery"
+msgstr ""
+
+#: inc/vc-config.php:2092
+msgid "Images grid/carousel"
+msgstr ""
+
+#: inc/vc-config.php:2110
+msgid "View"
+msgstr ""
+
+#: inc/vc-config.php:2123
+msgid "Space between images"
+msgstr ""
+
+#: inc/vc-config.php:2188
+msgid "Autoplay speed"
+msgstr ""
+
+#: inc/vc-config.php:2190
+msgid "Default speed 5000."
+msgstr ""
+
+#: inc/vc-config.php:2202 inc/vc-config.php:2802
+msgid "How much columns grid"
+msgstr ""
+
+#: inc/vc-config.php:2217
+msgid "On click action"
+msgstr ""
+
+#: inc/vc-config.php:2228
+msgid "Custom links"
+msgstr ""
+
+#: inc/vc-config.php:2230
+msgid ""
+"Enter links for each slide (Note: divide links with linebreaks (Enter))."
+msgstr ""
+
+#: inc/vc-config.php:2238
+msgid "Open in new tab"
+msgstr ""
+
+#: inc/vc-config.php:2250
+msgid "Show captions on in lightbox"
+msgstr ""
+
+#: inc/vc-config.php:2272
+msgid "Menu price"
+msgstr ""
+
+#: inc/vc-config.php:2276
+msgid "Showcase your menu"
+msgstr ""
+
+#: inc/vc-config.php:2286
+msgid "Description"
+msgstr ""
+
+#: inc/vc-config.php:2328
+msgid "Shows countdown timer"
+msgstr ""
+
+#: inc/vc-config.php:2335
+msgid "Final date in the format Y/m/d. For example 2017/12/12"
+msgstr ""
+
+#: inc/vc-config.php:2367
+msgid "Transparent"
+msgstr ""
+
+#: inc/vc-config.php:2386
+msgid "Information box"
+msgstr ""
+
+#: inc/vc-config.php:2390
+msgid "Show your brief information as a carousel"
+msgstr ""
+
+#: inc/vc-config.php:2414
+msgid "Link target"
+msgstr ""
+
+#: inc/vc-config.php:2420
+msgid "Button text"
+msgstr ""
+
+#: inc/vc-config.php:2428
+msgid "Show on hover"
+msgstr ""
+
+#: inc/vc-config.php:2429
+msgid "Static"
+msgstr ""
+
+#: inc/vc-config.php:2469
+msgid "Brief content"
+msgstr ""
+
+#: inc/vc-config.php:2471 inc/vc-config.php:3648
+msgid "Add here few words to your banner image."
+msgstr ""
+
+#: inc/vc-config.php:2475 inc/vc-config.php:3590 inc/vc-config.php:3652
+msgid "Text alignment"
+msgstr ""
+
+#: inc/vc-config.php:2478 inc/vc-config.php:3593 inc/vc-config.php:3655
+msgid "Align left"
+msgstr ""
+
+#: inc/vc-config.php:2479 inc/vc-config.php:3594 inc/vc-config.php:3656
+msgid "Align right"
+msgstr ""
+
+#: inc/vc-config.php:2480 inc/vc-config.php:3595 inc/vc-config.php:3657
+msgid "Align center"
+msgstr ""
+
+#: inc/vc-config.php:2482 inc/vc-config.php:3597 inc/vc-config.php:3659
+msgid "Select image alignment."
+msgstr ""
+
+#: inc/vc-config.php:2486
+msgid "Image alignment"
+msgstr ""
+
+#: inc/vc-config.php:2496
+msgid "Box style"
+msgstr ""
+
+#: inc/vc-config.php:2499
+msgid "Base"
+msgstr ""
+
+#: inc/vc-config.php:2506
+msgid "New CSS structure"
+msgstr ""
+
+#: inc/vc-config.php:2508
+msgid "Use improved version with CSS flexbox that was added in 2.9 version."
+msgstr ""
+
+#: inc/vc-config.php:2513
+msgid "Disable SVG animation"
+msgstr ""
+
+#: inc/vc-config.php:2515
+msgid ""
+"By default, your SVG files will be animated. If you don't want you can "
+"disable the animation."
+msgstr ""
+
+#: inc/vc-config.php:2540
+msgid "Information box carousel"
+msgstr ""
+
+#: inc/vc-config.php:2560
+msgid "Slider spacing"
+msgstr ""
+
+#: inc/vc-config.php:2566
+msgid "Set the interval numbers that you want to display between slider items."
+msgstr ""
+
+#: inc/vc-config.php:2675
+msgid "Comment count"
+msgstr ""
+
+#: inc/vc-config.php:2676
+msgid "Menu order"
+msgstr ""
+
+#: inc/vc-config.php:2677
+msgid "As IDs or slugs provided order"
+msgstr ""
+
+#: inc/vc-config.php:2687
+msgid "Product categories"
+msgstr ""
+
+#: inc/vc-config.php:2691
+msgid "Product categories grid"
+msgstr ""
+
+#: inc/vc-config.php:2701
+msgid "Number"
+msgstr ""
+
+#: inc/vc-config.php:2703
+msgid "The `number` field is used to display the number of categories."
+msgstr ""
+
+#: inc/vc-config.php:2711
+#, php-format
+msgid "Select how to sort retrieved categories. More at %s."
+msgstr ""
+
+#: inc/vc-config.php:2727
+msgid "Try out our creative styles for categories block"
+msgstr ""
+
+#: inc/vc-config.php:2738
+msgid "Overrides option from Theme Settings -> Shop"
+msgstr ""
+
+#: inc/vc-config.php:2744
+msgid "Space between categories"
+msgstr ""
+
+#: inc/vc-config.php:2817
+msgid "Hide empty"
+msgstr ""
+
+#: inc/vc-config.php:2831
+msgid "List of product categories"
+msgstr ""
+
+#: inc/vc-config.php:2858 inc/vc-config.php:2898
+msgid "Id"
+msgstr ""
+
+#: inc/vc-config.php:2862
+msgid "Slug"
+msgstr ""
+
+#: inc/vc-config.php:2890
+msgid "Sku"
+msgstr ""
+
+#: inc/vc-config.php:2915
+msgid "Posts carousel"
+msgstr ""
+
+#: inc/vc-config.php:2919 inc/vc-config.php:3175
+msgid "Animated carousel with posts"
+msgstr ""
+
+#: inc/vc-config.php:2924
+msgid "Slider title"
+msgstr ""
+
+#: inc/vc-config.php:2929
+msgid "Carousel content"
+msgstr ""
+
+#: inc/vc-config.php:2936
+msgid "Create WordPress loop, to populate content from your site."
+msgstr ""
+
+#: inc/vc-config.php:2958 inc/vc-config.php:3376
+msgid ""
+"Set numbers of slides you want to display at the same time on slider's "
+"container for carousel mode. Also supports for \"auto\" value, in this case "
+"it will fit slides depending on container's width. \"auto\" mode doesn't "
+"compatible with loop mode."
+msgstr ""
+
+#: inc/vc-config.php:2962 inc/vc-config.php:3385
+msgid "Scroll per page"
+msgstr ""
+
+#: inc/vc-config.php:2964 inc/vc-config.php:3387
+msgid ""
+"Scroll per page not per item. This affect next/prev buttons and mouse/touch "
+"dragging."
+msgstr ""
+
+#: inc/vc-config.php:2997
+msgid "Products hover (deprecated)"
+msgstr ""
+
+#: inc/vc-config.php:2998
+msgid "If you use products carousel"
+msgstr ""
+
+#: inc/vc-config.php:3044
+msgid "AJAX Products tabs"
+msgstr ""
+
+#: inc/vc-config.php:3050
+msgid "Product tabs for your marketplace"
+msgstr ""
+
+#: inc/vc-config.php:3060
+msgid "Icon image"
+msgstr ""
+
+#: inc/vc-config.php:3067
+msgid "Tabs color"
+msgstr ""
+
+#: inc/vc-config.php:3086
+msgid "Products tab"
+msgstr ""
+
+#: inc/vc-config.php:3092
+msgid "Products block"
+msgstr ""
+
+#: inc/vc-config.php:3097
+msgid "Title for the tab"
+msgstr ""
+
+#: inc/vc-config.php:3138
+msgid "Add spaces between images"
+msgstr ""
+
+#: inc/vc-config.php:3145
+msgid "Specific design"
+msgstr ""
+
+#: inc/vc-config.php:3147
+msgid ""
+"With this option your gallery will be styled in a different way, and sizes "
+"will be changed."
+msgstr ""
+
+#: inc/vc-config.php:3150
+msgid "Iphone"
+msgstr ""
+
+#: inc/vc-config.php:3151
+msgid "MacBook"
+msgstr ""
+
+#: inc/vc-config.php:3171
+msgid "Products (grid or carousel)"
+msgstr ""
+
+#: inc/vc-config.php:3187
+msgid "Products view"
+msgstr ""
+
+#: inc/vc-config.php:3192
+msgid "Carousel"
+msgstr ""
+
+#: inc/vc-config.php:3195
+msgid "Show products in standard grid or via slider carousel"
+msgstr ""
+
+#: inc/vc-config.php:3204
+msgid "New Products"
+msgstr ""
+
+#: inc/vc-config.php:3205
+msgid "Sale Products"
+msgstr ""
+
+#: inc/vc-config.php:3206
+msgid "Bestsellers"
+msgstr ""
+
+#: inc/vc-config.php:3216
+msgid "Add products by title."
+msgstr ""
+
+#: inc/vc-config.php:3241
+msgid "Categories or tags"
+msgstr ""
+
+#: inc/vc-config.php:3282
+msgid "Arrows"
+msgstr ""
+
+#: inc/vc-config.php:3322
+msgid "Products hover"
+msgstr ""
+
+#: inc/vc-config.php:3350
+msgid "Sale countdown"
+msgstr ""
+
+#: inc/vc-config.php:3351
+msgid ""
+"Countdown to the end sale date will be shown. Be sure you have set final "
+"date of the product sale price."
+msgstr ""
+
+#: inc/vc-config.php:3363 inc/vc-config.php:3377 inc/vc-config.php:3389
+#: inc/vc-config.php:3401 inc/vc-config.php:3413 inc/vc-config.php:3425
+#: inc/vc-config.php:3437
+msgid "Carousel Settings"
+msgstr ""
+
+#: inc/vc-config.php:3458
+msgid "Matches same order you passed in via the include parameter."
+msgstr ""
+
+#: inc/vc-config.php:3536
+msgid "Color Scheme"
+msgstr ""
+
+#: inc/vc-config.php:3539
+msgid "choose"
+msgstr ""
+
+#: inc/vc-config.php:3586
+msgid "Add here few words to your author info."
+msgstr ""
+
+#: inc/vc-config.php:3601
+msgid "Author link"
+msgstr ""
+
+#: inc/vc-config.php:3606 inc/vc-config.php:3755
+msgid "Link text"
+msgstr ""
+
+#: inc/vc-config.php:3639
+msgid "Banner link"
+msgstr ""
+
+#: inc/vc-config.php:3641
+msgid "Enter URL if you want this banner to have a link."
+msgstr ""
+
+#: inc/vc-config.php:3646
+msgid "Banner content"
+msgstr ""
+
+#: inc/vc-config.php:3663
+msgid "Content vertical alignment"
+msgstr ""
+
+#: inc/vc-config.php:3667
+msgid "Middle"
+msgstr ""
+
+#: inc/vc-config.php:3673
+msgid "Hover effect"
+msgstr ""
+
+#: inc/vc-config.php:3677
+msgid "Zoom image"
+msgstr ""
+
+#: inc/vc-config.php:3679
+msgid "Content animation"
+msgstr ""
+
+#: inc/vc-config.php:3680
+msgid "Translate and scale"
+msgstr ""
+
+#: inc/vc-config.php:3682
+msgid "Set beautiful hover effects for your banner."
+msgstr ""
+
+#: inc/vc-config.php:3686
+msgid "Content style"
+msgstr ""
+
+#: inc/vc-config.php:3690
+msgid "Color mask"
+msgstr ""
+
+#: inc/vc-config.php:3691
+msgid "Mask with border"
+msgstr ""
+
+#: inc/vc-config.php:3692
+msgid "Content with line background"
+msgstr ""
+
+#: inc/vc-config.php:3693
+msgid "Content with rectangular background"
+msgstr ""
+
+#: inc/vc-config.php:3697
+msgid "You can use some of our predefined styles for your banner content."
+msgstr ""
+
+#: inc/vc-config.php:3702
+msgid "Increase spaces"
+msgstr ""
+
+#: inc/vc-config.php:3704
+msgid ""
+"Suggest to use this option if you have large banners. Padding will be set in "
+"percentage to your screen width."
+msgstr ""
+
+#: inc/vc-config.php:3727 woocommerce/myaccount/form-login.php:92
+msgid "Username"
+msgstr ""
+
+#: inc/vc-config.php:3732
+msgid "Number of photos"
+msgstr ""
+
+#: inc/vc-config.php:3737
+msgid "Photo size"
+msgstr ""
+
+#: inc/vc-config.php:3740
+msgid "Thumbnail"
+msgstr ""
+
+#: inc/vc-config.php:3746
+msgid "Open link in"
+msgstr ""
+
+#: inc/vc-config.php:3749
+msgid "Current window (_self)"
+msgstr ""
+
+#: inc/vc-config.php:3750
+msgid "New window (_blank)"
+msgstr ""
+
+#: inc/vc-config.php:3771
+msgid "Photos per row"
+msgstr ""
+
+#: inc/vc-config.php:3774
+msgid "Number of photos per row for grid design or items in slider per view."
+msgstr ""
+
+#: inc/vc-config.php:3793
+msgid "Instagram text"
+msgstr ""
+
+#: inc/vc-config.php:3796
+msgid "Add here few words about your instagram profile."
+msgstr ""
+
+#: inc/vc-config.php:3800
+msgid "Add spaces between photos"
+msgstr ""
+
+#: inc/vc-config.php:3807
+msgid "Rounded corners for images"
+msgstr ""
+
+#: inc/widgets/class-author-area-widget.php:17
+msgid "BASEL Author Information"
+msgstr ""
+
+#: inc/widgets/class-author-area-widget.php:19
+msgid "Small information block about blog author"
+msgstr ""
+
+#: inc/widgets/class-banner-widget.php:17
+msgid "BASEL Banner"
+msgstr ""
+
+#: inc/widgets/class-banner-widget.php:19
+msgid "Promo banner with text"
+msgstr ""
+
+#: inc/widgets/class-instagram-widget.php:17
+msgid "BASEL Instagram"
+msgstr ""
+
+#: inc/widgets/class-static-block-widget.php:17
+msgid "BASEL HTML Block"
+msgstr ""
+
+#: inc/widgets/class-static-block-widget.php:19
+msgid "Display HTML block"
+msgstr ""
+
+#: inc/widgets/class-user-panel-widget.php:17
+msgid "BASEL User Panel"
+msgstr ""
+
+#: inc/widgets/class-user-panel-widget.php:19
+msgid "User panel to use in My Account area"
+msgstr ""
+
+#: inc/widgets/class-widget-layered-nav.php:26
+msgid "BASEL WooCommerce Layered Nav"
+msgstr ""
+
+#: inc/widgets/class-widget-layered-nav.php:28
+msgid ""
+"Shows a custom attribute in a widget which lets you narrow down the list of "
+"products when viewing product categories."
+msgstr ""
+
+#: inc/widgets/class-widget-layered-nav.php:38
+msgid "Filter by"
+msgstr ""
+
+#: inc/widgets/class-widget-layered-nav.php:45
+msgid "Attribute"
+msgstr ""
+
+#: inc/widgets/class-widget-layered-nav.php:52
+msgid "Query type"
+msgstr ""
+
+#: inc/widgets/class-widget-layered-nav.php:54
+msgid "AND"
+msgstr ""
+
+#: inc/widgets/class-widget-layered-nav.php:55
+msgid "OR"
+msgstr ""
+
+#: inc/widgets/class-widget-layered-nav.php:62
+msgid "Display type"
+msgstr ""
+
+#: inc/widgets/class-widget-layered-nav.php:64
+msgid "list"
+msgstr ""
+
+#: inc/widgets/class-widget-layered-nav.php:65
+msgid "inline"
+msgstr ""
+
+#: inc/widgets/class-widget-layered-nav.php:73
+msgid "Swatches size"
+msgstr ""
+
+#: inc/widgets/class-widget-layered-nav.php:75
+msgid "normal"
+msgstr ""
+
+#: inc/widgets/class-widget-layered-nav.php:76
+msgid "large"
+msgstr ""
+
+#: inc/widgets/class-widget-layered-nav.php:77
+msgid "small"
+msgstr ""
+
+#: inc/widgets/class-widget-layered-nav.php:84
+msgid "Show labels"
+msgstr ""
+
+#: inc/widgets/class-widget-layered-nav.php:86
+msgid "ON"
+msgstr ""
+
+#: inc/widgets/class-widget-layered-nav.php:87
+msgid "OFF"
+msgstr ""
+
+#: inc/widgets/class-widget-layered-nav.php:201
+msgid "Apply filter"
+msgstr ""
+
+#: inc/widgets/class-widget-layered-nav.php:204
+#, php-format
+msgid "Any %s"
+msgstr ""
+
+#: inc/widgets/class-widget-price-filter.php:19
+msgid "BASEL Price filter"
+msgstr ""
+
+#: inc/widgets/class-widget-price-filter.php:21
+msgid "Price filter list"
+msgstr ""
+
+#: inc/widgets/class-widget-price-filter.php:31 inc/woocommerce.php:1356
+msgid "Price filter"
+msgstr ""
+
+#: inc/widgets/class-widget-search.php:17
+msgid "BASEL AJAX Search"
+msgstr ""
+
+#: inc/widgets/class-widget-search.php:19
+msgid "Search form by products with AJAX"
+msgstr ""
+
+#: inc/widgets/class-widget-search.php:29
+msgid "Search products"
+msgstr ""
+
+#: inc/widgets/class-widget-search.php:42
+msgid "Show price"
+msgstr ""
+
+#: inc/widgets/class-widget-search.php:48
+msgid "Show thumbnail"
+msgstr ""
+
+#: inc/widgets/class-widget-sorting.php:17
+msgid "BASEL WooCommerce Sort by"
+msgstr ""
+
+#: inc/widgets/class-widget-sorting.php:19
+msgid "Sort products by name, price, popularity etc."
+msgstr ""
+
+#: inc/widgets/class-widget-sorting.php:29 inc/woocommerce.php:1344
+msgid "Sort by"
+msgstr ""
+
+#: inc/widgets/class-widget-sorting.php:51
+msgid "Popularity"
+msgstr ""
+
+#: inc/widgets/class-widget-sorting.php:52
+msgid "Average rating"
+msgstr ""
+
+#: inc/widgets/class-widget-sorting.php:53
+msgid "Newness"
+msgstr ""
+
+#: inc/widgets/class-widget-sorting.php:54
+msgid "Price: low to high"
+msgstr ""
+
+#: inc/widgets/class-widget-sorting.php:55
+msgid "Price: high to low"
+msgstr ""
+
+#: inc/widgets/class-wp-nav-menu-widget.php:12
+msgid "Add a custom mega menu to your sidebar."
+msgstr ""
+
+#: inc/widgets/class-wp-nav-menu-widget.php:13
+msgid "Sidebar Mega Menu"
+msgstr ""
+
+#: inc/widgets/class-wp-nav-menu-widget.php:62
+#, php-format
+msgid "No menus have been created yet. <a href=\"%s\">Create some</a>."
+msgstr ""
+
+#: inc/widgets/class-wp-nav-menu-widget.php:67
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/class-wp-nav-menu-widget.php:71
+msgid "Select Menu:"
+msgstr ""
+
+#: inc/widgets/class-wp-nav-menu-widget.php:73
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: inc/woocommerce.php:172
+msgctxt "Page slug"
+msgid "cart"
+msgstr ""
+
+#: inc/woocommerce.php:173
+msgctxt "Page title"
+msgid "Cart"
+msgstr ""
+
+#: inc/woocommerce.php:177
+msgctxt "Page slug"
+msgid "checkout"
+msgstr ""
+
+#: inc/woocommerce.php:178
+msgctxt "Page title"
+msgid "Checkout"
+msgstr ""
+
+#: inc/woocommerce.php:506
+msgid "Quick shop"
+msgstr ""
+
+#: inc/woocommerce.php:674
+msgid "Previous product"
+msgstr ""
+
+#: inc/woocommerce.php:693
+msgid "Next product"
+msgstr ""
+
+#: inc/woocommerce.php:770
+msgid "Compare"
+msgstr ""
+
+#: inc/woocommerce.php:1212
+msgid "Watch video"
+msgstr ""
+
+#: inc/woocommerce.php:1250
+msgid "360 product view"
+msgstr ""
+
+#: inc/woocommerce.php:1310
+#, php-format
+msgid "Tag your photos with <span>%s</span> on Instagram."
+msgstr ""
+
+#: inc/woocommerce.php:1335
+msgid "Filters"
+msgstr ""
+
+#: inc/woocommerce.php:1568
+msgid "No product categories exist."
+msgstr ""
+
+#: inc/woocommerce.php:1698
+msgid "View details"
+msgstr ""
+
+#: inc/woocommerce.php:2030
+msgid "Sold out"
+msgstr ""
+
+#: inc/woocommerce/product-360-view.php:18
+msgid "Product 360 View Gallery (optional)"
+msgstr ""
+
+#: inc/woocommerce/product-360-view.php:56
+#: inc/woocommerce/product-360-view.php:76
+msgid "Delete image"
+msgstr ""
+
+#: inc/woocommerce/product-360-view.php:56
+#: inc/woocommerce/product-360-view.php:76
+msgid "Delete"
+msgstr ""
+
+#: inc/woocommerce/product-360-view.php:76
+msgid "Add Images to Product 360 view Gallery"
+msgstr ""
+
+#: inc/woocommerce/product-360-view.php:76
+msgid "Add to gallery"
+msgstr ""
+
+#: inc/woocommerce/product-360-view.php:76
+msgid "Add product 360 view gallery images"
+msgstr ""
+
+#: single-portfolio.php:23
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: single-portfolio.php:37
+msgid "Related Projects"
+msgstr ""
+
+#: single.php:36
+msgid "Previous Post"
+msgstr ""
+
+#: single.php:37
+msgid "Next Post"
+msgstr ""
+
+#: single.php:49
+msgid "Related Posts"
+msgstr ""
+
+#: vc_templates/post_block/_item.php:21
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: woocommerce/cart/cart.php:38 woocommerce/cart/cart.php:103
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:39 woocommerce/cart/cart.php:120
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:60 woocommerce/cart/mini-cart.php:44
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:92
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:144
+msgid "Coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:144
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:144
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:153
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce/cart/cross-sells.php:26
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:70
+msgid "No products in the cart."
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:78
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:20
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:54
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/content-product-quick.php:30
+msgid "Close"
+msgstr ""
+
+#: woocommerce/content-product_cat.php:86
+#, php-format
+msgid "%s product"
+msgid_plural "%s products"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/content-product_cat.php:97
+msgid "View products"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:30
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/loop/no-products-found.php:17
+msgid "No products were found matching your selection."
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:44
+#: woocommerce/myaccount/form-login.php:70
+#: woocommerce/myaccount/form-login.php:140
+msgid "Login"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:51
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:55
+#: woocommerce/myaccount/form-login.php:106
+msgid "Password"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:62
+msgid "Lost your password?"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:68
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:83
+#: woocommerce/myaccount/form-login.php:120
+#: woocommerce/myaccount/form-login.php:134
+#: woocommerce/myaccount/form-login.php:140
+msgid "Register"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:99
+msgid "Email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:113
+msgid "Anti-spam"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:132
+msgid "Or"
+msgstr ""
+
+#: woocommerce/quick-view/product-images.php:41
+msgid "Placeholder"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable-swatches.php:36
+#: woocommerce/single-product/add-to-cart/variable.php:37
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable-swatches.php:121
+#: woocommerce/single-product/add-to-cart/variable.php:48
+msgid "Clear"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:31
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:31
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:35
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/meta.php:37
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/photo-swipe-template.php:33
+msgid "Toggle fullscreen"
+msgstr ""
+
+#: woocommerce/single-product/photo-swipe-template.php:35
+msgid "Zoom in/out"
+msgstr ""
+
+#: woocommerce/single-product/photo-swipe-template.php:52
+msgid "Previous (arrow left)"
+msgstr ""
+
+#: woocommerce/single-product/photo-swipe-template.php:55
+msgid "Next (arrow right)"
+msgstr ""
+
+#: woocommerce/single-product/product-image.php:67
+msgid "Awaiting product image"
+msgstr ""
+
+#: woocommerce/single-product/product-image.php:79
+msgid "Click to enlarge"
+msgstr ""
+
+#: woocommerce/single-product/related.php:21
+msgid "Related products"
+msgstr ""
+
+#: woocommerce/single-product/sale-flash.php:25
+msgid "Sale!"
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:21
+msgid "You may also like&hellip;"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:32
+msgid "Edit title"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:41
+msgid "Save"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:45
+msgid "Cancel"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:82 woocommerce/wishlist-view.php:163
+msgid "Product Name"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:89 woocommerce/wishlist-view.php:169
+msgid "Unit Price"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:102 woocommerce/wishlist-view.php:175
+msgid "Stock Status"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:152 woocommerce/wishlist-view.php:229
+msgid "Remove this product"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:170
+msgid "Free!"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:176
+msgid "Out of Stock"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:176
+msgid "In Stock"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:185
+#, php-format
+msgid "Added on : %s"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:197
+msgid "Move"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:209
+msgid "Shared"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:212
+msgid "Private"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:215
+msgid "Public"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:229
+msgid "Remove"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:239
+msgid "No products were added to the wishlist"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:256
+msgid "Add the selected products to the cart"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:264 woocommerce/wishlist-view.php:310
+msgid "Ask for an estimate"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:300
+msgid "Your email"
+msgstr ""

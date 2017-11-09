@@ -1,0 +1,11 @@
+.container { padding-bottom: 0; }
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner { box-shadow: none !important; }
+.navbar .nav {margin-top: 0; margin-bottom: 0;}
+.navbar .nav li { line-height: 3em; }
+.navbar .nav li a { border-radius: 0 !important; margin-bottom: 0; text-shadow: none; max-width: none; }
+.navbar .nav > li a { color: #909090; }
+.navbar .nav li ul { border-radius: 0; box-shadow: none; padding: 0; margin-left: 3px; border: 1px solid #d4d4d4; border-top: 0; }
+.navbar .nav li ul li { line-height: 2em; margin: 0; }
+.navbar .nav li ul a { margin-left: 0; }
+ul.marketing-byline { color: #959595; }
+#intro { display: none; }
