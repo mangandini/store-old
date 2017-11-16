@@ -16,19 +16,19 @@
 
 // ** Ajustes de MySQL. Solicita estos datos a tu proveedor de alojamiento web. ** //
 /** El nombre de tu base de datos de WordPress */
-define('DB_NAME', 'woocommerce');
+define('DB_NAME', getenv("DB_NAME"));
 
 /** Tu nombre de usuario de MySQL */
-define('DB_USER', 'root');
+define('DB_USER', getenv("DB_USER"));
 
 /** Tu contraseña de MySQL */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', getenv("DB_PASSWORD"));
 
 /** Host de MySQL (es muy probable que no necesites cambiarlo) */
-define('DB_HOST', 'localhost');
+define('DB_HOST', getenv("DB_HOST"));
 
 /** Codificación de caracteres para la base de datos. */
-define('DB_CHARSET', 'utf8mb4');
+define('DB_CHARSET', 'utf8');
 
 /** Cotejamiento de la base de datos. No lo modifiques si tienes dudas. */
 define('DB_COLLATE', '');
@@ -42,14 +42,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY', 'ED_qR-sgHArpa0&6z%p^6|Y8.85F,W><C-Z4Y.6)*NHqKw6xXb]DHf?zq)08G56U');
-define('SECURE_AUTH_KEY', 'eY}ZiP?mAf*}e!,zjcP@j>:B,#oFabG6Vh`?<nk0WS/E/(m9aFpw0Y(*n%`m;y<>');
-define('LOGGED_IN_KEY', '2Yla`#./k*VT5HpTtbn(I(w!yN]DtBue]@GCj6[hw+pQ+SC]3{w,z5QM*uK9D+{y');
-define('NONCE_KEY', '%b#n,NL>:<T01>ZKv?H)THO)i1<Y:4JxI6Z*{ lrN<QYbbma}.MLHSYoaoaylFtm');
-define('AUTH_SALT', 'RUw*}AZE3G2rYdSPL%eHfp>IXkd|n$&Oz`xf;*4DLz.=Ma}D/isfIHw[V<Q&#3aG');
-define('SECURE_AUTH_SALT', '-~0Qdf!N+G2#S!&xi3}6@[u4C>kq4?%O5V23~O(1,*ND}l>5[(AbFF=^:lp4U9g3');
-define('LOGGED_IN_SALT', 'yJfh5Vo:B0wWAB^_dKJfOKC*b1!Vw&4;9Jq{;{u57h=Pv0-mdxc${WZ;f8s>1EZi');
-define('NONCE_SALT', 'HKxd)^u=cVuX,XNjlgf/3ZBn:@J:3gd-}Vm;ijv`{=t;kI/d59jHJr7n,9I Pbfh');
+define('AUTH_KEY', $_SERVER['AUTH_KEY']);
+define('SECURE_AUTH_KEY', $_SERVER['SECURE_AUTH_KEY']);
+define('LOGGED_IN_KEY', $_SERVER['LOGGED_IN_KEY']);
+define('NONCE_KEY', $_SERVER['NONCE_KEY']);
+define('AUTH_SALT', $_SERVER['AUTH_SALT']);
+define('SECURE_AUTH_SALT', $_SERVER['SECURE_AUTH_SALT']);
+define('LOGGED_IN_SALT', $_SERVER['LOGGED_IN_SALT']);
+define('NONCE_SALT', $_SERVER['NONCE_SALT']);
 
 /**#@-*/
 
@@ -71,6 +71,11 @@ $table_prefix  = 'wp_';
  */
 define('WP_DEBUG', false);
 
+/* Change name based on environments */
+
+define('WP_HOME', $_SERVER['WP_HOME']);
+define('WP_SITEURL', $_SERVER['WP_SITEURL']);
+
 /* ¡Eso es todo, deja de editar! Feliz blogging */
 
 /** WordPress absolute path to the Wordpress directory. */
@@ -79,4 +84,3 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
-
